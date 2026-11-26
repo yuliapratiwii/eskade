@@ -1,0 +1,592 @@
+{
+  "totalQuestions": 3330,
+  "sumberDistribution": {
+    "web": 2178,
+    "twt": 1040,
+    "part-28": 56,
+    "part-27": 56
+  },
+  "subtesDistribution": {
+    "TKP": 1139,
+    "TWK": 931,
+    "TIU": 1260
+  },
+  "issues": {
+    "noKeyCount": 0,
+    "noPembahasanCount": 0,
+    "noTopikCount": 0,
+    "noOpsiCount": 0,
+    "lessThan5OpsiCount": 0,
+    "brokenImagesCount": 17,
+    "duplicateGroupsCount": 495,
+    "totalDuplicateQuestions": 595
+  },
+  "part27": {
+    "count": 56,
+    "figuralCount": 0
+  },
+  "part28": {
+    "count": 56,
+    "figuralCount": 0
+  },
+  "duplicateGroupsSample": [
+    {
+      "stemSnippet": "Anda bertugas di panitia seleksi. menjelang pergantian sif Muncul kesalahpahaman karena ungkapan yan",
+      "count": 2,
+      "items": [
+        {
+          "id": "005fce82-7b4d-4ed5-a774-70c6ada0f64d",
+          "sumber": "twt",
+          "nomor": 942,
+          "subtes": "TKP"
+        },
+        {
+          "id": "601b9b4d-d289-4d5e-93ee-cda2294d499f",
+          "sumber": "twt",
+          "nomor": 472,
+          "subtes": "TKP"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Level Super sulit\nTentukan gambar berikutnya dalam serial ini. [gambar] › [gambar] › [gambar] › [gam",
+      "count": 5,
+      "items": [
+        {
+          "id": "00902be3-b336-47b2-969b-b868d74dfd6b",
+          "sumber": "web",
+          "nomor": 783,
+          "subtes": "TIU"
+        },
+        {
+          "id": "5745f62e-7290-4a77-8a51-9db3de379523",
+          "sumber": "web",
+          "nomor": 778,
+          "subtes": "TIU"
+        },
+        {
+          "id": "67451f35-cc4b-4ff8-9cfb-f9c0816c77f8",
+          "sumber": "web",
+          "nomor": 777,
+          "subtes": "TIU"
+        },
+        {
+          "id": "6d2d599a-8ccf-4570-8c7b-675c562d520b",
+          "sumber": "web",
+          "nomor": 784,
+          "subtes": "TIU"
+        },
+        {
+          "id": "cf65ce63-a671-42a5-b176-943bcc784a6e",
+          "sumber": "web",
+          "nomor": 780,
+          "subtes": "TIU"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Dalam pengelolaan informasi publik, terdapat pembaca dari daerah berbeda. Muncul usulan yang hanya m",
+      "count": 2,
+      "items": [
+        {
+          "id": "00e866ad-132b-4ef5-a074-11be48f957f5",
+          "sumber": "twt",
+          "nomor": 591,
+          "subtes": "TWK"
+        },
+        {
+          "id": "0e40bb52-51ed-4fd1-aa4f-b914ddef26f9",
+          "sumber": "twt",
+          "nomor": 121,
+          "subtes": "TWK"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Anda bertugas di tim kegiatan relawan. setelah rapat koordinasi Rekan dari instansi lain menawarkan ",
+      "count": 2,
+      "items": [
+        {
+          "id": "00ee1282-5e0c-4503-9131-e101654c6537",
+          "sumber": "twt",
+          "nomor": 422,
+          "subtes": "TKP"
+        },
+        {
+          "id": "887b4a93-ec28-4cbd-98d5-de8e797665f5",
+          "sumber": "twt",
+          "nomor": 892,
+          "subtes": "TKP"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Sebuah pekerjaan dapat selesai oleh 7 pekerja selama 9 hari. Dengan produktivitas sama, berapa hari ",
+      "count": 2,
+      "items": [
+        {
+          "id": "0108a3fd-55d5-4084-8e54-4adad98f2b25",
+          "sumber": "twt",
+          "nomor": 354,
+          "subtes": "TIU"
+        },
+        {
+          "id": "57a4d96f-c53b-48be-a7b4-45f1dcdc62ad",
+          "sumber": "twt",
+          "nomor": 824,
+          "subtes": "TIU"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Hubungan BIBLIOGRAFI : BUKU paling setara dengan hubungan ...",
+      "count": 2,
+      "items": [
+        {
+          "id": "012028c6-667c-4df3-92f1-a089d8477776",
+          "sumber": "twt",
+          "nomor": 711,
+          "subtes": "TIU"
+        },
+        {
+          "id": "85b85c77-344c-4e1b-bb89-480b324ccf96",
+          "sumber": "twt",
+          "nomor": 241,
+          "subtes": "TIU"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Sebanyak 320 lembar dokumen dibagi rata kepada 5 petugas. Setiap petugas menerima berapa lembar?",
+      "count": 2,
+      "items": [
+        {
+          "id": "013482f7-3695-4212-b272-85c32ec020cb",
+          "sumber": "twt",
+          "nomor": 310,
+          "subtes": "TIU"
+        },
+        {
+          "id": "e88d7897-e87c-4160-b039-00ba10288f61",
+          "sumber": "twt",
+          "nomor": 780,
+          "subtes": "TIU"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Saat seleksi relawan, tersebar informasi palsu yang dapat memicu kepanikan di kalangan pelamar denga",
+      "count": 2,
+      "items": [
+        {
+          "id": "0198e6ad-f57c-4eeb-9304-fcbce2dd67d1",
+          "sumber": "twt",
+          "nomor": 164,
+          "subtes": "TWK"
+        },
+        {
+          "id": "3b806557-2100-4ee9-9d99-2e239a9ca033",
+          "sumber": "twt",
+          "nomor": 634,
+          "subtes": "TWK"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Diketahui P = 68 dan Q = 170. Pernyataan perbandingan yang benar adalah ...",
+      "count": 2,
+      "items": [
+        {
+          "id": "01b349d4-2b41-42af-a4a7-61f7da9cc68d",
+          "sumber": "twt",
+          "nomor": 344,
+          "subtes": "TIU"
+        },
+        {
+          "id": "77b1e8ce-a302-40c9-82c0-7be14bfaa7ae",
+          "sumber": "twt",
+          "nomor": 814,
+          "subtes": "TIU"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Anda bertugas di pusat layanan kesehatan. pada awal jam kerja Informasi penting tidak sampai kepada ",
+      "count": 2,
+      "items": [
+        {
+          "id": "0219fb64-efeb-4f29-bb45-a27923d40202",
+          "sumber": "twt",
+          "nomor": 878,
+          "subtes": "TKP"
+        },
+        {
+          "id": "f3815d72-7da0-4d51-9514-6d2685333bd1",
+          "sumber": "twt",
+          "nomor": 408,
+          "subtes": "TKP"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Diketahui P = 138 dan Q = 138. Pernyataan perbandingan yang benar adalah ...",
+      "count": 2,
+      "items": [
+        {
+          "id": "02c18b9a-5461-4638-934b-d8ba0e44eb87",
+          "sumber": "twt",
+          "nomor": 348,
+          "subtes": "TIU"
+        },
+        {
+          "id": "bdc10470-4853-47ec-bd62-f517173aa4ae",
+          "sumber": "twt",
+          "nomor": 818,
+          "subtes": "TIU"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Anda bertugas di forum diskusi warga. pada periode pelaporan Dua unit memiliki jadwal yang bertabrak",
+      "count": 2,
+      "items": [
+        {
+          "id": "033ece51-034b-40d7-9c15-0f351289cf94",
+          "sumber": "twt",
+          "nomor": 894,
+          "subtes": "TKP"
+        },
+        {
+          "id": "9e08067d-8109-4404-b764-e33abddba48e",
+          "sumber": "twt",
+          "nomor": 424,
+          "subtes": "TKP"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Anda bertugas di unit administrasi kampus. menjelang pergantian sif Rekan mengajak menyebarkan konte",
+      "count": 2,
+      "items": [
+        {
+          "id": "03522eb5-4fed-4b5a-b39f-ce3bc48bd390",
+          "sumber": "twt",
+          "nomor": 548,
+          "subtes": "TKP"
+        },
+        {
+          "id": "a6f39dd1-b4ce-483e-a340-5d93f3bff83e",
+          "sumber": "twt",
+          "nomor": 1018,
+          "subtes": "TKP"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Semua panitia inti termasuk panitia. Tidak satu pun panitia boleh masuk ruang X. Simpulan yang valid",
+      "count": 2,
+      "items": [
+        {
+          "id": "039394b3-31d5-46c7-ab27-6351dd90e9cd",
+          "sumber": "twt",
+          "nomor": 745,
+          "subtes": "TIU"
+        },
+        {
+          "id": "fe8ecae0-ba21-46e6-b975-88512ee07f88",
+          "sumber": "twt",
+          "nomor": 275,
+          "subtes": "TIU"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Dalam pengelolaan fasilitas olahraga, keputusan mengenai pengguna berbagai kelompok perlu dibuat, te",
+      "count": 2,
+      "items": [
+        {
+          "id": "050b73e6-732c-4a03-b1c8-959e18466bbf",
+          "sumber": "twt",
+          "nomor": 193,
+          "subtes": "TWK"
+        },
+        {
+          "id": "ae7828ff-70e3-4397-a990-55b093c2595e",
+          "sumber": "twt",
+          "nomor": 663,
+          "subtes": "TWK"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Anda bertugas di layanan bantuan daring. saat layanan dilakukan secara daring Ditemukan tautan mencu",
+      "count": 2,
+      "items": [
+        {
+          "id": "050daf77-f795-4bc5-8235-b8b6807e4e98",
+          "sumber": "twt",
+          "nomor": 498,
+          "subtes": "TKP"
+        },
+        {
+          "id": "5fa75f06-d1be-4da7-82a6-3608ca7916cc",
+          "sumber": "twt",
+          "nomor": 968,
+          "subtes": "TKP"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Level Sedang\nTentukan sel kosong pada matriks ini. [gambar]\n[gambar]\n[gambar]\n[gambar]\n[gambar]\n[gam",
+      "count": 2,
+      "items": [
+        {
+          "id": "05446b00-9c61-4482-b425-e36ceb8196eb",
+          "sumber": "web",
+          "nomor": 762,
+          "subtes": "TIU"
+        },
+        {
+          "id": "3e3c380e-c5c9-4a22-bd12-e8650ff4648f",
+          "sumber": "web",
+          "nomor": 763,
+          "subtes": "TIU"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Anda bertugas di unit informasi sekolah. pada awal jam kerja Rekan dari instansi lain menawarkan kol",
+      "count": 2,
+      "items": [
+        {
+          "id": "05713526-b454-4fcf-a6b5-67a26fd743d0",
+          "sumber": "twt",
+          "nomor": 407,
+          "subtes": "TKP"
+        },
+        {
+          "id": "e3d46a6a-edf8-4742-b1ab-27ac3bd4a565",
+          "sumber": "twt",
+          "nomor": 877,
+          "subtes": "TKP"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Semua peserta pelatihan adalah peserta. Sebagian peserta pelatihan mengikuti pelatihan. Simpulan yan",
+      "count": 2,
+      "items": [
+        {
+          "id": "05c841c0-9b27-4279-b05b-9fa6f8e67e86",
+          "sumber": "twt",
+          "nomor": 270,
+          "subtes": "TIU"
+        },
+        {
+          "id": "80f93d17-55e0-4d14-97e6-bb00cbbcd520",
+          "sumber": "twt",
+          "nomor": 740,
+          "subtes": "TIU"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Hubungan REM : KENDARAAN paling setara dengan hubungan ...",
+      "count": 2,
+      "items": [
+        {
+          "id": "0600bd64-515f-4e23-b44d-b2d53676f5cc",
+          "sumber": "twt",
+          "nomor": 252,
+          "subtes": "TIU"
+        },
+        {
+          "id": "8f1d7957-f306-4e5a-97ff-1517a3b4d68a",
+          "sumber": "twt",
+          "nomor": 722,
+          "subtes": "TIU"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Pada pelayanan kelurahan, seorang panitia menemukan data kegiatan yang tidak sesuai fakta. Data itu ",
+      "count": 2,
+      "items": [
+        {
+          "id": "060ef436-2e1d-4f36-8931-1d1c9f680f5e",
+          "sumber": "twt",
+          "nomor": 131,
+          "subtes": "TWK"
+        },
+        {
+          "id": "42f62b2d-2d30-4c53-86ea-cda598287b07",
+          "sumber": "twt",
+          "nomor": 601,
+          "subtes": "TWK"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Dalam pengelolaan informasi publik, keputusan mengenai pembaca dari daerah berbeda perlu dibuat, tet",
+      "count": 2,
+      "items": [
+        {
+          "id": "062eff3d-3b8d-4765-8fe4-6dbcff0b0230",
+          "sumber": "twt",
+          "nomor": 202,
+          "subtes": "TWK"
+        },
+        {
+          "id": "901ffcf6-4f6f-4c98-a96f-fd4b2d975ac4",
+          "sumber": "twt",
+          "nomor": 672,
+          "subtes": "TWK"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Hubungan KOMPAS : ARAH paling setara dengan hubungan ...",
+      "count": 2,
+      "items": [
+        {
+          "id": "06591797-acfb-4333-8958-d6c6f4b2223d",
+          "sumber": "twt",
+          "nomor": 710,
+          "subtes": "TIU"
+        },
+        {
+          "id": "af38644a-c72c-4c2f-a28f-dc60efa1b936",
+          "sumber": "twt",
+          "nomor": 240,
+          "subtes": "TIU"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Anda bertugas di forum kerja lintas budaya. saat evaluasi mingguan Tenggat pekerjaan mendekat sement",
+      "count": 2,
+      "items": [
+        {
+          "id": "06b1b6bd-a045-4916-a174-43f2d24ec8a9",
+          "sumber": "twt",
+          "nomor": 539,
+          "subtes": "TKP"
+        },
+        {
+          "id": "42288af3-9be8-413a-b0c7-224f1670d660",
+          "sumber": "twt",
+          "nomor": 1009,
+          "subtes": "TKP"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Diketahui P = 124 dan Q = 93. Pernyataan perbandingan yang benar adalah ...",
+      "count": 2,
+      "items": [
+        {
+          "id": "06bd92c4-60ee-4205-b070-ab62abc9a83b",
+          "sumber": "twt",
+          "nomor": 343,
+          "subtes": "TIU"
+        },
+        {
+          "id": "0fe4b1e8-93bb-4e05-826e-790c1c7fb6e4",
+          "sumber": "twt",
+          "nomor": 813,
+          "subtes": "TIU"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Anda bertugas di forum kerja antardaerah. ketika kegiatan sedang berlangsung Antrean bertambah karen",
+      "count": 2,
+      "items": [
+        {
+          "id": "07559d4b-76ae-4496-964a-2f5db6bf6ade",
+          "sumber": "twt",
+          "nomor": 864,
+          "subtes": "TKP"
+        },
+        {
+          "id": "f1b3bc74-c150-406b-9103-9ba4f6fba1ac",
+          "sumber": "twt",
+          "nomor": 394,
+          "subtes": "TKP"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Sebuah pekerjaan dapat selesai oleh 4 pekerja selama 6 hari. Dengan produktivitas sama, berapa hari ",
+      "count": 2,
+      "items": [
+        {
+          "id": "0798b16f-ff30-43a6-816d-08bb3f8acb9e",
+          "sumber": "twt",
+          "nomor": 351,
+          "subtes": "TIU"
+        },
+        {
+          "id": "5eb84627-79bb-430c-a375-4c49250dcd65",
+          "sumber": "twt",
+          "nomor": 821,
+          "subtes": "TIU"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Anda bertugas di unit pengadaan alat. pada periode pelaporan File berisi data pribadi pengguna harus",
+      "count": 2,
+      "items": [
+        {
+          "id": "080b3582-a314-4ea4-891f-5bee058c118c",
+          "sumber": "twt",
+          "nomor": 966,
+          "subtes": "TKP"
+        },
+        {
+          "id": "d64d78fb-56ef-4fa7-90d6-9baa749db1ec",
+          "sumber": "twt",
+          "nomor": 496,
+          "subtes": "TKP"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Anda bertugas di forum diskusi warga. pada periode pelaporan Tenggat pekerjaan mendekat sementara di",
+      "count": 2,
+      "items": [
+        {
+          "id": "082ad732-5156-4aa9-af42-e2ec81c70eab",
+          "sumber": "twt",
+          "nomor": 994,
+          "subtes": "TKP"
+        },
+        {
+          "id": "9574ee77-1b09-46b3-a434-3db20cd5924b",
+          "sumber": "twt",
+          "nomor": 524,
+          "subtes": "TKP"
+        }
+      ]
+    },
+    {
+      "stemSnippet": "Anda bertugas di unit bantuan sosial. ketika jumlah pengunjung meningkat Seorang pengguna layanan me",
+      "count": 2,
+      "items": [
+        {
+          "id": "0875c648-6bf1-4f93-b063-f9ff8fb65b77",
+          "sumber": "twt",
+          "nomor": 378,
+          "subtes": "TKP"
+        },
+        {
+          "id": "4353f5a8-284a-4d8a-ab37-98ea23f6dcc2",
+          "sumber": "twt",
+          "nomor": 848,
+          "subtes": "TKP"
+        }
+      ]
+    }
+  ]
+}

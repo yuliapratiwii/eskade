@@ -1,0 +1,362 @@
+[
+  {
+    "sumber": "part-27",
+    "nomor": 57,
+    "subtes": "TIU",
+    "topik": "Figural Serial",
+    "level": "sedang",
+    "soal": "Perhatikan gambar pola serial 4 bingkai berurutan dan tentukan gambar ke-(5)!\r\n\r\n![Gambar Soal Nomor 57](gambar/part27_soal_57.png)\r\n\r\n* **Pola yang Diketahui:**\r\n  * Kotak persegi bagian kiri-atas (terdiri atas 4 elemen: lingkaran putih, matriks titik-titik, bentuk setengah lingkaran, dan ring lingkaran) **bersifat tetap dan posisinya tidak berubah** dari gambar (1) sampai (4).\r\n  * Objek-objek yang berada di sisi bawah dan sisi kanan saling bergeser secara siklik berlawanan arah jarum jam (*counter-clockwise*).\r\n* Berdasarkan pola tersebut, gambar yang tepat untuk posisi ke-(5) adalah:",
+    "gambar_url": "/gambar/part27_soal_57.png",
+    "opsi": {
+      "A": "Opsi A",
+      "B": "Opsi B",
+      "C": "Opsi C",
+      "D": "Opsi D",
+      "E": "Opsi E"
+    },
+    "kunci": "A",
+    "pembahasan": "* **Jawaban:** **A**\r\n* **Visual Pembahasan:**\r\n\r\n![Visual Pembahasan Nomor 57](gambar/part27_pembahasan_57.png)\r\n\r\n* **Penjelasan:**\r\n  * Sisi kiri-atas tetap mempertahankan pola 4 elemen yang statis.\r\n  * Pergeseran elemen tepi bawah dan tepi kanan 1 langkah berlawanan arah jarum jam menghasilkan susunan bentuk yang identik dengan opsi **A**.\r\n\r\n---",
+    "pembahasan_gambar": "/gambar/part27_pembahasan_57.png",
+    "status": "published"
+  },
+  {
+    "sumber": "part-27",
+    "nomor": 58,
+    "subtes": "TIU",
+    "topik": "Figural Serial",
+    "level": "sedang",
+    "soal": "Perhatikan serial gambar (1) hingga (5) untuk menentukan kelanjutan gambar (6)!\r\n\r\n![Gambar Soal Nomor 58](gambar/part27_soal_58.png)\r\n\r\n* Terdapat 4 objek di dalam setiap bingkai yang membentuk pola lompat/selang-seling antara suku ganjil (1, 3, 5) dan suku genap (2, 4, 6):\r\n  * **Objek 1 (kiri atas):** Berputar berlawanan arah jarum jam sebesar $90^\\circ$ dan perubahan warnanya bergantian (hitam/putih).\r\n  * **Objek 2 (kanan atas):** Memiliki pola perubahan warna hitam/putih.\r\n  * **Objek 3 (kiri bawah):** Mengikuti rotasi dan siklus perubahan warna.\r\n  * **Objek 4 (kanan bawah):** Berputar searah jarum jam sebesar $90^\\circ$ serta berubah warna pada setiap langkahnya.\r\n\r\nTentukan gambar ke-(6) yang tepat!",
+    "gambar_url": "/gambar/part27_soal_58.png",
+    "opsi": {
+      "A": "Opsi A",
+      "B": "Opsi B",
+      "C": "Opsi C",
+      "D": "Opsi D",
+      "E": "Opsi E"
+    },
+    "kunci": "E",
+    "pembahasan": "* **Jawaban:** **E**\r\n* **Visual Pembahasan:**\r\n\r\n![Visual Pembahasan Nomor 58](gambar/part27_pembahasan_58.png)\r\n\r\n* **Penjelasan:**\r\n  * Gambar (6) berpatokan dari pola suku genap (2) dan (4).\r\n  * Objek kiri atas (lidah api putih) diputar $90^\\circ$ berlawanan arah jarum jam menjadi menghadap ke bawah dengan warna putih.\r\n  * Objek kanan atas tetap berwarna hitam.\r\n  * Objek kiri bawah diputar searah jarum jam $90^\\circ$ dan berubah menjadi hitam.\r\n  * Objek kanan bawah berubah warna menjadi putih.\r\n  * Kombinasi lengkap tersebut tepat berada pada opsi **E**.\r\n\r\n---",
+    "pembahasan_gambar": "/gambar/part27_pembahasan_58.png",
+    "status": "published"
+  },
+  {
+    "sumber": "part-27",
+    "nomor": 59,
+    "subtes": "TIU",
+    "topik": "Figural Analogi",
+    "level": "sedang",
+    "soal": "Perhatikan gambar analogi bentuk berikut:\r\n\r\n![Gambar Soal Nomor 59](gambar/part27_soal_59.png)\r\n\r\nDiberikan analogi bentuk:\r\n\r\n$$\r\n\\text{Gambar (1)} : \\text{Gambar (2)} = \\text{Gambar (3)} : \\text{Gambar (4)}\r\n$$\r\n\r\n* **Pola Transformasi Gambar (3) ke Gambar (4):**\r\n  * Objek utama (tengah-kanan): Dicerminkan secara horizontal (sumbu vertikal/balik kiri-kanan).\r\n  * Objek atas-kiri: Sebagian objeknya berkurang $\\frac{1}{2}$ bagian kanannya.\r\n  * Objek tengah-kiri: Diputar sebesar $90^\\circ$ searah jarum jam.\r\n  * Objek bawah-kiri: Bentuk dan orientasinya tetap statis.\r\n\r\nBerdasarkan aturan analogi yang sama dari gambar (1) ke gambar (2), manakah gambar yang mengisi tanda tanya (?) ...",
+    "gambar_url": "/gambar/part27_soal_59.png",
+    "opsi": {
+      "A": "Opsi A",
+      "B": "Opsi B",
+      "C": "Opsi C",
+      "D": "Opsi D",
+      "E": "Opsi E"
+    },
+    "kunci": "C",
+    "pembahasan": "* **Jawaban:** **C**\r\n* **Visual Pembahasan:**\r\n\r\n![Visual Pembahasan Nomor 59](gambar/part27_pembahasan_59.png)\r\n\r\n* **Penjelasan:**\r\n  * Bunga mekar dicerminkan horizontal (kelopak dan daun berbalik arah).\r\n  * Susunan tumpukan segitiga di atas kiri berkurang separuh bagian kanannya sehingga membentuk separuh deret segitiga.\r\n  * Bentuk tangga di tengah kiri diputar $90^\\circ$ searah jarum jam.\r\n  * Bentuk wajik/berlian hitam di kiri bawah tetap tidak berubah.\r\n  * Bentuk yang memenuhi keempat karakteristik ini adalah **C**.\r\n\r\n---",
+    "pembahasan_gambar": "/gambar/part27_pembahasan_59.png",
+    "status": "published"
+  },
+  {
+    "sumber": "part-27",
+    "nomor": 60,
+    "subtes": "TIU",
+    "topik": "Figural Analogi",
+    "level": "sedang",
+    "soal": "Perhatikan gambar analogi bingkai berikut:\r\n\r\n![Gambar Soal Nomor 60](gambar/part27_soal_60.png)\r\n\r\nDiberikan pasangan analogi bingkai:\r\n\r\n$$\r\n\\text{Gambar (1)} : \\text{Gambar (2)} = \\text{Gambar (3)} : \\text{Gambar (4)}\r\n$$\r\n\r\nUntuk mencari Gambar (3) dari Gambar (4), kita membalik arah transformasinya (sebagaimana pola Gambar (2) ke Gambar (1)):\r\n* **Objek 1 (tumbuhan/pohon):** Dicerminkan secara horizontal.\r\n* **Objek 2 (bintang/persegi):** Elemen luar berpindah ke sudut kiri bawah dan membesar, sedangkan elemen bintang tetap di kanan atas.\r\n* **Objek 3 (bentuk bebas):** Mengalami pembalikan warna (putih menjadi hitam solid).\r\n\r\nManakah gambar yang tepat untuk mengisi posisi tanda tanya (?) pada Gambar (3)?",
+    "gambar_url": "/gambar/part27_soal_60.png",
+    "opsi": {
+      "A": "Opsi A",
+      "B": "Opsi B",
+      "C": "Opsi C",
+      "D": "Opsi D",
+      "E": "Opsi E"
+    },
+    "kunci": "B",
+    "pembahasan": "* **Jawaban:** **B**\r\n* **Visual Pembahasan:**\r\n\r\n![Visual Pembahasan Nomor 60](gambar/part27_pembahasan_60.png)\r\n\r\n* **Penjelasan:**\r\n  * Pohon kelapa tegak lurus dengan daun menghadap ke kiri dicerminkan.\r\n  * Objek kotak luar pindah ke sudut kiri bawah sebagai kotak putih kosong.\r\n  * Objek bercak di kanan bawah berubah warna menjadi hitam penuh.\r\n  * Gambar yang tepat memenuhi aturan ini adalah opsi **B**.\r\n\r\n---",
+    "pembahasan_gambar": "/gambar/part27_pembahasan_60.png",
+    "status": "published"
+  },
+  {
+    "sumber": "part-27",
+    "nomor": 61,
+    "subtes": "TIU",
+    "topik": "Figural Ketaksamaan",
+    "level": "sedang",
+    "soal": "Perhatikan kelima gambar pada opsi A, B, C, D, dan E! Manakah gambar yang **paling berbeda (tidak sekelompok)** dari yang lainnya?\r\n\r\n![Gambar Soal Nomor 61](gambar/part27_soal_61.png)",
+    "gambar_url": "/gambar/part27_soal_61.png",
+    "opsi": {
+      "A": "Opsi A",
+      "B": "Opsi B",
+      "C": "Opsi C",
+      "D": "Opsi D",
+      "E": "Opsi E"
+    },
+    "kunci": "D",
+    "pembahasan": "* **Jawaban:** **D**\r\n* **Visual Pembahasan:**\r\n\r\n![Visual Pembahasan Nomor 61](gambar/part27_pembahasan_61.png)\r\n\r\n* **Penjelasan:**\r\n  * Semua opsi (A, B, C, E) memiliki variasi 4 sub-pola kuadran yang sama dan hanya mengalami translasi posisi atau rotasi.\r\n  * Pada gambar **D**, terdapat satu bentuk objek kelopak/geometri yang secara intrinsik berbeda orientasi lengkungannya dan tidak dapat diperoleh dari rotasi atau refleksi elemen dasar gambar lainnya.\r\n\r\n---",
+    "pembahasan_gambar": "/gambar/part27_pembahasan_61.png",
+    "status": "published"
+  },
+  {
+    "sumber": "part-27",
+    "nomor": 62,
+    "subtes": "TIU",
+    "topik": "Figural Ketaksamaan",
+    "level": "sedang",
+    "soal": "Perhatikan kelima gambar pada opsi A, B, C, D, dan E! Manakah gambar yang berbeda polanya dari yang lain?\r\n\r\n![Gambar Soal Nomor 62](gambar/part27_soal_62.png)",
+    "gambar_url": "/gambar/part27_soal_62.png",
+    "opsi": {
+      "A": "Opsi A",
+      "B": "Opsi B",
+      "C": "Opsi C",
+      "D": "Opsi D",
+      "E": "Opsi E"
+    },
+    "kunci": "C",
+    "pembahasan": "* **Jawaban:** **C**\r\n* **Visual Pembahasan:**\r\n\r\n![Visual Pembahasan Nomor 62](gambar/part27_pembahasan_62.png)\r\n\r\n* **Penjelasan:**\r\n  * Objek gambar pada opsi A, B, D, dan E merupakan bangun yang kongruen dan identik satu sama lain melalui **rotasi 2D** pada bidang datar:\r\n    * Opsi B didapat dengan memutar opsi A sebesar $90^\\circ$.\r\n    * Opsi D didapat dengan memutar sebesar $180^\\circ$.\r\n    * Opsi E didapat dengan memutar sebesar $270^\\circ$.\r\n  * Pada opsi **C**, panah lengkung dan orientasi elemen bintang luar tidak dapat dihasilkan dari rotasi biasa (memerlukan pencerminan/refleksi terbalik). Maka objek yang tidak sama adalah **C**.\r\n\r\n---",
+    "pembahasan_gambar": "/gambar/part27_pembahasan_62.png",
+    "status": "published"
+  },
+  {
+    "sumber": "part-27",
+    "nomor": 63,
+    "subtes": "TIU",
+    "topik": "Figural Matriks 9 Kotak",
+    "level": "sulit",
+    "soal": "Perhatikan matriks figural berukuran $3 \\times 3$ berikut! Setiap kotak berisi 4 simbol unik yang terbagi menjadi kelompok-kelompok tertentu:\r\n\r\n![Gambar Soal Nomor 63](gambar/part27_soal_63.png)\r\n\r\n* Objek yang ditandai memiliki kelompok rotasi:\r\n  * Kelompok objek yang sama pada sel tertentu mengalami rotasi bersama sebesar $90^\\circ$ searah jarum jam.\r\n  * Kelompok lainnya mengalami rotasi bersama sebesar $90^\\circ$ berlawanan arah jarum jam.\r\n* Tentukan gambar yang tepat untuk menggantikan tanda tanya (?) pada baris ke-3 kolom ke-2!",
+    "gambar_url": "/gambar/part27_soal_63.png",
+    "opsi": {
+      "A": "Opsi A",
+      "B": "Opsi B",
+      "C": "Opsi C",
+      "D": "Opsi D",
+      "E": "Opsi E"
+    },
+    "kunci": "C",
+    "pembahasan": "* **Jawaban:** **C**\r\n* **Visual Pembahasan:**\r\n\r\n![Visual Pembahasan Nomor 63](gambar/part27_pembahasan_63.png)\r\n\r\n* **Penjelasan:**\r\n  * Elemen pada baris ketiga kolom kedua merupakan rotasi dari kelompok bentuk kapsul/segitiga/jamur/organik.\r\n  * Melalui rotasi $90^\\circ$ berlawanan arah jarum jam dari bentuk pasangannya, posisi segitiga berada di pojok kiri atas, kapsul di pojok kiri bawah, dan jamur hitam berada di kanan bawah.\r\n  * Gambar yang paling tepat adalah **C**.\r\n\r\n---",
+    "pembahasan_gambar": "/gambar/part27_pembahasan_63.png",
+    "status": "published"
+  },
+  {
+    "sumber": "part-27",
+    "nomor": 64,
+    "subtes": "TIU",
+    "topik": "Figural Matriks 9 Kotak",
+    "level": "sulit",
+    "soal": "Perhatikan pola baris demi baris pada matriks $3 \\times 3$:\r\n\r\n![Gambar Soal Nomor 64](gambar/part27_soal_64.png)\r\n\r\n* **Aturan Gerak per Langkah Horisontal:**\r\n  * Setiap objek di **kolom 1** bergeser 1 langkah ke **bawah** secara bersiklus.\r\n  * Dua objek di **kolom 2** bergeser 1 langkah ke **bawah** (saling bertukar tempat).\r\n  * Setiap objek di **kolom 3** bergeser 1 langkah ke **atas** secara bersiklus.\r\n\r\nTerapkan aturan gerak tersebut dari baris ke-3 kolom ke-1 menuju baris ke-3 kolom ke-2 (?)!",
+    "gambar_url": "/gambar/part27_soal_64.png",
+    "opsi": {
+      "A": "Opsi A",
+      "B": "Opsi B",
+      "C": "Opsi C",
+      "D": "Opsi D",
+      "E": "Opsi E"
+    },
+    "kunci": "B",
+    "pembahasan": "* **Jawaban:** **B**\r\n* **Visual Pembahasan:**\r\n\r\n![Visual Pembahasan Nomor 64](gambar/part27_pembahasan_64.png)\r\n\r\n* **Penjelasan:**\r\n  * Menggeser elemen-elemen di kolom 1 ke bawah, menukar posisi elemen kolom 2 ke bawah, serta menaikkan elemen kolom 3 ke atas menghasilkan konfigurasi gambar persis pada opsi **B**.\r\n\r\n---",
+    "pembahasan_gambar": "/gambar/part27_pembahasan_64.png",
+    "status": "published"
+  },
+  {
+    "sumber": "part-27",
+    "nomor": 65,
+    "subtes": "TIU",
+    "topik": "Figural Matriks 9 Kotak",
+    "level": "sulit",
+    "soal": "Perhatikan matriks $3 \\times 3$ yang memuat ornamen busur lingkaran berpusat:\r\n\r\n![Gambar Soal Nomor 65](gambar/part27_soal_65.png)\r\n\r\n* **Aturan Gerak per Baris:**\r\n  * Busur lingkaran konsentris di area tertentu berputar sebesar $90^\\circ$ searah jarum jam (*clockwise*).\r\n  * Busur lingkaran di area sudut lainnya berputar sebesar $90^\\circ$ berlawanan arah jarum jam (*counter-clockwise*).\r\n  * Simbol tanda silang ($X$) dan segitiga kecil di sudut tetap berada pada posisi dasarnya.\r\n\r\nTentukan gambar yang tepat untuk mengisi posisi tanda tanya (?) pada baris ke-3 kolom ke-2!",
+    "gambar_url": "/gambar/part27_soal_65.png",
+    "opsi": {
+      "A": "Opsi A",
+      "B": "Opsi B",
+      "C": "Opsi C",
+      "D": "Opsi D",
+      "E": "Opsi E"
+    },
+    "kunci": "D",
+    "pembahasan": "* **Jawaban:** **D**\r\n* **Visual Pembahasan:**\r\n\r\n![Visual Pembahasan Nomor 65](gambar/part27_pembahasan_65.png)\r\n\r\n* **Penjelasan:**\r\n  * Melakukan rotasi sebesar $90^\\circ$ searah jarum jam pada busur lingkaran bertingkat di kanan atas serta rotasi $90^\\circ$ berlawanan arah jarum jam pada busur lingkaran di kiri bawah menghasilkan bukaan celah lingkaran yang menghadap ke bawah dan ke kanan.\r\n  * Konfigurasi yang tepat sesuai kunci pembahasan adalah opsi **D**.",
+    "pembahasan_gambar": "/gambar/part27_pembahasan_65.png",
+    "status": "published"
+  },
+  {
+    "sumber": "part-28",
+    "nomor": 57,
+    "subtes": "TIU",
+    "topik": "Figural Serial",
+    "level": "sedang",
+    "soal": "Perhatikan pola serial 5 bingkai berurutan dan tentukan gambar ke-(3)!\r\n\r\n![Gambar Soal Nomor 57](gambar/part28_soal_57.png)",
+    "gambar_url": "/gambar/part28_soal_57.png",
+    "opsi": {
+      "A": "Opsi A",
+      "B": "Opsi B",
+      "C": "Opsi C",
+      "D": "Opsi D",
+      "E": "Opsi E"
+    },
+    "kunci": "E",
+    "pembahasan": "* **Jawaban:** **E**\r\n* **Visual Pembahasan Beranotasi:**\r\n\r\n![Visual Pembahasan Nomor 57](gambar/part28_pembahasan_57.png)\r\n\r\n* **Analisis Pola Transformasi:**\r\n  1. **Objek Besar di Tengah (Tanaman/Cabang):** Jumlah daun/cabangnya bertambah 1 di setiap bingkai:\r\n     * Bingkai (1) = 3 helai\r\n     * Bingkai (2) = 4 helai\r\n     * **Bingkai (3) = 5 helai daun**\r\n     * Bingkai (4) = 6 helai\r\n     * Bingkai (5) = 7 helai\r\n  2. **Objek Sudut Kanan Atas (Tanda Merah - Persegi & Segitiga):** Berputar sebesar $90^\\circ$ **searah jarum jam** (*clockwise*) pada setiap langkah.\r\n  3. **Objek Sudut Kiri Atas (Tanda Biru - Simbol Bulat):** Berubah motif setiap **2 gambar sekali**:\r\n     * Bingkai (1) & (2) = motif roda/lingkaran jeruji\r\n     * **Bingkai (3) & (4) = motif bunga 4 kelopak melingkar**\r\n     * Bingkai (5) = motif baling-baling\r\n  4. **Objek Garis di Bawah (Tanda Hijau):** Berganti bentuk berselang-seling:\r\n     * Bingkai (1) = garis zig-zag\r\n     * Bingkai (2) = garis bergelombang\r\n     * **Bingkai (3) = garis zig-zag**\r\n  * Konfigurasi yang memenuhi keempat kriteria tersebut adalah **Opsi E**.\r\n\r\n---",
+    "pembahasan_gambar": "/gambar/part28_pembahasan_57.png",
+    "status": "published"
+  },
+  {
+    "sumber": "part-28",
+    "nomor": 58,
+    "subtes": "TIU",
+    "topik": "Figural Serial",
+    "level": "sedang",
+    "soal": "Perhatikan serial gambar (1) hingga (4) untuk menentukan kelanjutan gambar ke-(5)!\r\n\r\n![Gambar Soal Nomor 58](gambar/part28_soal_58.png)",
+    "gambar_url": "/gambar/part28_soal_58.png",
+    "opsi": {
+      "A": "Opsi A",
+      "B": "Opsi B",
+      "C": "Opsi C",
+      "D": "Opsi D",
+      "E": "Opsi E"
+    },
+    "kunci": "D",
+    "pembahasan": "* **Jawaban:** **D**\r\n* **Visual Pembahasan Beranotasi:**\r\n\r\n![Visual Pembahasan Nomor 58](gambar/part28_pembahasan_58.png)\r\n\r\n* **Analisis Pola Transformasi:**\r\n  Setiap bingkai terbagi menjadi 4 kuadran dengan aturan gerak masing-masing:\r\n  1. **Kuadran Kiri Atas (Tanda Merah):** Objek berputar sebesar $90^\\circ$ **searah jarum jam** (*clockwise*).\r\n  2. **Kuadran Kiri Bawah (Tanda Biru):** Objek berputar sebesar $90^\\circ$ **berlawanan arah jarum jam** (*counter-clockwise*).\r\n  3. **Kuadran Kanan Atas (Tanda Hijau):** Objek berputar sebesar $90^\\circ$ **searah jarum jam** (*clockwise*).\r\n  4. **Kuadran Kanan Bawah (Tanda Kuning):** Objek berubah bentuk setiap **2 gambar sekali** (bingkai 1-2 bentuk A, bingkai 3-4 bentuk B, maka bingkai 5 kembali berubah).\r\n  * Dengan menerapkan perputaran dan perubahan pada gambar (4) menuju gambar (5), diperoleh susunan yang tepat pada **Opsi D**.\r\n\r\n---",
+    "pembahasan_gambar": "/gambar/part28_pembahasan_58.png",
+    "status": "published"
+  },
+  {
+    "sumber": "part-28",
+    "nomor": 59,
+    "subtes": "TIU",
+    "topik": "Figural Analogi",
+    "level": "sedang",
+    "soal": "Perhatikan gambar analogi berikut:\r\n\r\n![Gambar Soal Nomor 59](gambar/part28_soal_59.png)\r\n\r\nDiberikan analogi:\r\n$$\\text{Gambar (1)} : \\text{Gambar (2)} = \\text{Gambar (3)} : \\text{Gambar (4)}$$",
+    "gambar_url": "/gambar/part28_soal_59.png",
+    "opsi": {
+      "A": "Opsi A",
+      "B": "Opsi B",
+      "C": "Opsi C",
+      "D": "Opsi D",
+      "E": "Opsi E"
+    },
+    "kunci": "A",
+    "pembahasan": "* **Jawaban:** **A**\r\n\r\n![Gambar Pembahasan Nomor 59](gambar/part28_pembahasan_59.png)\r\n\r\n* **Analisis Pola Transformasi:**\r\n  * **Kaidah Analogi:** Pola transformasi dari Gambar (1) ke Gambar (2) sama dengan pola transformasi dari Gambar (3) ke Gambar (4).\r\n  * **Analisis Gambar (1) ke Gambar (2):**\r\n    * Gambar (1) berputar sebesar $90^\\circ$ **berlawanan arah jarum jam** (*counter-clockwise*) sehingga menghasilkan Gambar (2).\r\n  * **Penerapan pada Gambar (3) ke Gambar (4):**\r\n    * Gambar (3) jika diputar sebesar $90^\\circ$ berlawanan arah jarum jam harus menghasilkan bentuk yang ada pada Gambar (4).\r\n    * Sebaliknya, untuk menemukan Gambar (3) dari Gambar (4), kita memutar Gambar (4) sebesar $90^\\circ$ **searah jarum jam** (*clockwise*).\r\n  * Hasil putaran tersebut secara tepat dan presisi membentuk konfigurasi pada **Opsi A**.\r\n\r\n---",
+    "pembahasan_gambar": "/gambar/part28_pembahasan_59.png",
+    "status": "published"
+  },
+  {
+    "sumber": "part-28",
+    "nomor": 60,
+    "subtes": "TIU",
+    "topik": "Figural Analogi",
+    "level": "sedang",
+    "soal": "Perhatikan gambar berikut!\r\n\r\n![Gambar Soal Nomor 60](gambar/part28_soal_60.png)\r\n\r\nDiberikan hubungan analogi bangun datar:\r\n\\text{Gambar (1)} : \\text{Gambar (2)} = \\text{Gambar (3)} : \\text{Gambar (4)}",
+    "gambar_url": "/gambar/part28_soal_60.png",
+    "opsi": {
+      "A": "Opsi A",
+      "B": "Opsi B",
+      "C": "Opsi C",
+      "D": "Opsi D",
+      "E": "Opsi E"
+    },
+    "kunci": "E",
+    "pembahasan": "* **Jawaban:** **E**\r\n\r\n![Gambar Pembahasan Nomor 60](gambar/part28_pembahasan_60.png)\r\n\r\n* **Analisis Pola Transformasi:**\r\n  * **Kaidah Analogi:** Pola perubahan dari Gambar (1) ke Gambar (2) sama persis dengan pola transformasi dari Gambar (3) ke Gambar (4).\r\n  * **Analisis Gambar (3) ke Gambar (4):**\r\n    1. Bangun utama pada Gambar (3) diputar sebesar $90^\\circ$ **berlawanan arah jarum jam** (*counter-clockwise*).\r\n    2. Objek kecil berwarna hitam (di luar bingkai utama yang dilingkari warna merah) **berubah warna menjadi putih** dan posisinya ikut berputar bersama orientasi bangun sehingga menghasilkan Gambar (4).\r\n  * **Penerapan pada Gambar (1) ke Gambar (2):**\r\n    1. Gambar (1) memiliki bingkai kotak miring dengan ornamen di dalamnya serta sebuah kotak hitam kecil di sisi kanan luar.\r\n    2. Putar Gambar (1) sebesar $90^\\circ$ berlawanan arah jarum jam: kotak kecil yang semula di sebelah kanan akan berpindah ke posisi atas.\r\n    3. Ubah warna kotak kecil hitam tersebut menjadi **putih**.\r\n  * Konfigurasi yang terbentuk dengan tepat adalah **Opsi E**.\r\n\r\n---",
+    "pembahasan_gambar": "/gambar/part28_pembahasan_60.png",
+    "status": "published"
+  },
+  {
+    "sumber": "part-28",
+    "nomor": 61,
+    "subtes": "TIU",
+    "topik": "Figural Ketaksamaan",
+    "level": "sedang",
+    "soal": "Carilah gambar yang berbeda dari kelompok gambar berikut!\r\n\r\n![Gambar Soal Nomor 61](gambar/part28_soal_61.png)",
+    "gambar_url": "/gambar/part28_soal_61.png",
+    "opsi": {
+      "A": "Opsi A",
+      "B": "Opsi B",
+      "C": "Opsi C",
+      "D": "Opsi D",
+      "E": "Opsi E"
+    },
+    "kunci": "E",
+    "pembahasan": "* **Jawaban:** **E**\r\n\r\n![Gambar Pembahasan Nomor 61](gambar/part28_pembahasan_61.png)\r\n\r\n* **Analisis Pola Transformasi:**\r\n  * Perhatikan karakteristik jumlah cabang atau helai pada objek bagian tengah dan objek luar (yang dilingkari warna merah):\r\n    * **Gambar A:** Objek tengah memiliki 4 cabang, objek luar memiliki 5 cabang.\r\n    * **Gambar B:** Objek tengah memiliki 4 cabang, objek luar memiliki 5 cabang.\r\n    * **Gambar C:** Objek tengah memiliki 4 cabang, objek luar memiliki 5 cabang.\r\n    * **Gambar D:** Objek tengah memiliki 4 cabang, objek luar memiliki 5 cabang.\r\n    * **Gambar E:** Objek tengah memiliki **3 cabang**, sedangkan objek luar memiliki **6 cabang**.\r\n  * Karena seluruh opsi A, B, C, dan D konsisten dengan pola $4 \\text{ cabang (tengah)} : 5 \\text{ cabang (luar)}$, maka **Gambar E** merupakan gambar yang paling berbeda (tidak mengikuti pola kelompok).\r\n\r\n---",
+    "pembahasan_gambar": "/gambar/part28_pembahasan_61.png",
+    "status": "published"
+  },
+  {
+    "sumber": "part-28",
+    "nomor": 62,
+    "subtes": "TIU",
+    "topik": "Figural Ketaksamaan",
+    "level": "sedang",
+    "soal": "Carilah gambar yang berbeda di antara pilihan gambar berikut!\r\n\r\n![Gambar Soal Nomor 62](gambar/part28_soal_62.png)",
+    "gambar_url": "/gambar/part28_soal_62.png",
+    "opsi": {
+      "A": "Opsi A",
+      "B": "Opsi B",
+      "C": "Opsi C",
+      "D": "Opsi D",
+      "E": "Opsi E"
+    },
+    "kunci": "D",
+    "pembahasan": "* **Jawaban:** **D**\r\n\r\n![Gambar Pembahasan Nomor 62](gambar/part28_pembahasan_62.png)\r\n\r\n* **Analisis Pola Transformasi:**\r\n  * Perhatikan bentuk dan orientasi kurva/kelopak baling-baling pada setiap gambar:\r\n    * Pada gambar A, B, C, dan E, semua elemen baling-baling/kelopak dapat saling berimpit bila diputar (memiliki orientasi rotasi dan lekukan yang kongruen).\r\n    * Pada **Gambar D**, elemen kelopak yang ditandai dengan lingkaran merah memiliki bentuk kurva/arah lengkungan yang terbalik (refleksi/cermin), bukan hasil rotasi bidang datar.\r\n  * Oleh karena itu, objek yang tidak sesuai dengan pola rotasi kelompoknya adalah **Gambar D**.\r\n\r\n---",
+    "pembahasan_gambar": "/gambar/part28_pembahasan_62.png",
+    "status": "published"
+  },
+  {
+    "sumber": "part-28",
+    "nomor": 63,
+    "subtes": "TIU",
+    "topik": "Figural Matriks 9 Kotak",
+    "level": "sulit",
+    "soal": "Tentukan gambar yang tepat untuk mengisi kotak kosong bertanda tanya (?) pada matriks 3x3 berikut!\r\n\r\n![Gambar Soal Nomor 63](gambar/part28_soal_63.png)",
+    "gambar_url": "/gambar/part28_soal_63.png",
+    "opsi": {
+      "A": "Opsi A",
+      "B": "Opsi B",
+      "C": "Opsi C",
+      "D": "Opsi D",
+      "E": "Opsi E"
+    },
+    "kunci": "C",
+    "pembahasan": "* **Jawaban:** **C**\r\n\r\n![Gambar Pembahasan Nomor 63](gambar/part28_pembahasan_63.png)\r\n\r\n* **Analisis Pola Transformasi:**\r\n  * Analisis pergerakan setiap elemen secara horizontal (per baris dari kiri ke kanan):\r\n    1. **Elemen Pusat (Bintang Tengah):** Posisinya tetap dan tidak mengalami perubahan apapun di setiap kotak.\r\n    2. **Elemen Merah (Bintang di Sudut Luar):** Bergeser mengelilingi bingkai kotak sejauh 1 sudut secara **berlawanan arah jarum jam** (*counter-clockwise*).\r\n    3. **Elemen Biru (Panah Lengkung):** Bergeser sudut demi sudut **berlawanan arah jarum jam** (*counter-clockwise*) sekaligus mengalami rotasi sebesar $90^\\circ$ berlawanan arah jarum jam di setiap langkah.\r\n  * **Penerapan pada Baris Ketiga:**\r\n    * Kotak ke-1: Bintang luar di sudut tertentu, panah lengkung menghadap posisi awal.\r\n    * Kotak ke-2: Bintang luar bergeser satu sudut berlawanan jarum jam; panah bergeser dan berputar $90^\\circ$.\r\n    * Kotak ke-3 (Jawaban): Bintang luar bergeser lagi 1 sudut berlawanan arah jarum jam, dan panah biru bergeser ke sudut berikutnya serta berputar $90^\\circ$.\r\n  * Susunan yang dihasilkan sangat tepat diwakili oleh **Opsi C**.\r\n\r\n---",
+    "pembahasan_gambar": "/gambar/part28_pembahasan_63.png",
+    "status": "published"
+  },
+  {
+    "sumber": "part-28",
+    "nomor": 64,
+    "subtes": "TIU",
+    "topik": "Figural Matriks 9 Kotak",
+    "level": "sulit",
+    "soal": "Tentukan gambar yang tepat untuk melengkapi kotak matriks 3x3 berikut!\r\n\r\n![Gambar Soal Nomor 64](gambar/part28_soal_64.png)",
+    "gambar_url": "/gambar/part28_soal_64.png",
+    "opsi": {
+      "A": "Opsi A",
+      "B": "Opsi B",
+      "C": "Opsi C",
+      "D": "Opsi D",
+      "E": "Opsi E"
+    },
+    "kunci": "B",
+    "pembahasan": "* **Jawaban:** **B**\r\n\r\n![Gambar Pembahasan Nomor 64](gambar/part28_pembahasan_64.png)\r\n\r\n* **Analisis Pola Transformasi:**\r\n  * Analisis pergerakan elemen per baris (horizontal dari kiri ke kanan):\r\n    1. **Siklus Warna Objek (Merah, Kuning, Hijau, Biru, Oranye):**\r\n       * Setiap titik/elemen warna mengalami pergeseran teratur mengelilingi posisi-posisi bingkai sebesar 1 langkah **berlawanan arah jarum jam** (*counter-clockwise*).\r\n    2. **Elemen Garis/Kotak Vertikal Bagian Dalam:**\r\n       * Garis vertikal di bagian tengah berpindah posisi secara konsisten antar kolom.\r\n  * Dengan melanjutkan pola pergeseran warna satu langkah berikutnya pada baris ketiga, konfigurasi posisi titik-titik warna dan garis vertikal yang tepat adalah **Opsi B**.\r\n\r\n---",
+    "pembahasan_gambar": "/gambar/part28_pembahasan_64.png",
+    "status": "published"
+  },
+  {
+    "sumber": "part-28",
+    "nomor": 65,
+    "subtes": "TIU",
+    "topik": "Figural Matriks 9 Kotak",
+    "level": "sulit",
+    "soal": "Tentukan gambar yang tepat untuk mengisi kotak kosong pada matriks 3x3 berikut!\r\n\r\n![Gambar Soal Nomor 65](gambar/part28_soal_65.png)",
+    "gambar_url": "/gambar/part28_soal_65.png",
+    "opsi": {
+      "A": "Opsi A",
+      "B": "Opsi B",
+      "C": "Opsi C",
+      "D": "Opsi D",
+      "E": "Opsi E"
+    },
+    "kunci": "A",
+    "pembahasan": "* **Jawaban:** **A**\r\n\r\n![Gambar Pembahasan Nomor 65](gambar/part28_pembahasan_65.png)\r\n\r\n* **Analisis Pola Transformasi:**\r\n  * Analisis pergerakan elemen matriks secara horizontal (per baris dari kiri ke kanan):\r\n    1. **Objek Merah (Segitiga / Garis Diagonal Sudut):**\r\n       * Mengalami pergeseran sudut mengelilingi bingkai **searah jarum jam** (*clockwise*) dan berotasi sebesar $90^\\circ$.\r\n    2. **Objek Biru (Segitiga / Garis Arsiran Diagonal Sudut):**\r\n       * Mengalami pergeseran sudut mengelilingi bingkai **searah jarum jam** (*clockwise*) dan berotasi sebesar $90^\\circ$.\r\n  * **Penerapan pada Baris Ketiga Menuju Kotak Kosong:**\r\n    * Objek merah bergeser ke sudut berikutnya dan berputar $90^\\circ$.\r\n    * Objek biru bergeser ke sudut berikutnya dan berputar $90^\\circ$.\r\n  * Hasil kombinasi posisi dan orientasi arsiran segitiga diagonal tersebut secara akurat ditunjukkan oleh **Opsi A**.",
+    "pembahasan_gambar": "/gambar/part28_pembahasan_65.png",
+    "status": "published"
+  }
+]

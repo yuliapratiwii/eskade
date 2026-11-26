@@ -1,0 +1,1352 @@
+[
+  {
+    "idx": 1,
+    "id": "12584-229174",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 1,
+    "scores": {
+      "A": 3,
+      "B": 5,
+      "C": 1,
+      "D": 2,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/21060079229d.jpg"
+  },
+  {
+    "idx": 2,
+    "id": "12584-229176",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 2,
+    "scores": {
+      "A": 2,
+      "B": 3,
+      "C": 5,
+      "D": 1,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/b42e067755bd.jpg"
+  },
+  {
+    "idx": 3,
+    "id": "12584-229187",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 3,
+    "scores": {
+      "A": 1,
+      "B": 2,
+      "C": 5,
+      "D": 3,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/d2ef27abaf2a.jpg"
+  },
+  {
+    "idx": 4,
+    "id": "12584-229188",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 4,
+    "scores": {
+      "A": 1,
+      "B": 5,
+      "C": 4,
+      "D": 2,
+      "E": 3
+    },
+    "is_valid": true,
+    "img": "gambar/3c4e96ffd308.jpg"
+  },
+  {
+    "idx": 5,
+    "id": "12584-229189",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 5,
+    "scores": {
+      "A": 3,
+      "B": 2,
+      "C": 5,
+      "D": 1,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/a61e9248ae1a.jpg"
+  },
+  {
+    "idx": 6,
+    "id": "12584-229190",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 6,
+    "scores": {
+      "A": 2,
+      "B": 1,
+      "C": 5,
+      "D": 4,
+      "E": 3
+    },
+    "is_valid": true,
+    "img": "gambar/8c7030ed0817.jpg"
+  },
+  {
+    "idx": 7,
+    "id": "12584-229191",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 7,
+    "scores": {
+      "A": 1,
+      "B": 2,
+      "C": 3,
+      "D": 4,
+      "E": 5
+    },
+    "is_valid": true,
+    "img": "gambar/1ad10c06bbc5.jpg"
+  },
+  {
+    "idx": 8,
+    "id": "12584-229192",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 8,
+    "scores": {
+      "A": 2,
+      "B": 1,
+      "C": 3,
+      "D": 4,
+      "E": 5
+    },
+    "is_valid": true,
+    "img": "gambar/9a798e5d32aa.jpg"
+  },
+  {
+    "idx": 9,
+    "id": "12584-229193",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 9,
+    "scores": {
+      "A": 1,
+      "B": 3,
+      "C": 4,
+      "D": 5,
+      "E": 2
+    },
+    "is_valid": true,
+    "img": "gambar/13742112cc68.jpg"
+  },
+  {
+    "idx": 10,
+    "id": "12584-229194",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 10,
+    "scores": {
+      "A": 3,
+      "B": 1,
+      "C": 4,
+      "D": 5,
+      "E": 2
+    },
+    "is_valid": true,
+    "img": "gambar/307f564e3627.jpg"
+  },
+  {
+    "idx": 11,
+    "id": "12584-229195",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 11,
+    "scores": {
+      "A": 2,
+      "B": 3,
+      "C": 5,
+      "D": 1,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/7a7cd0191687.jpg"
+  },
+  {
+    "idx": 12,
+    "id": "12584-229196",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 12,
+    "scores": {
+      "A": 2,
+      "B": 3,
+      "C": 4,
+      "D": 5,
+      "E": 1
+    },
+    "is_valid": true,
+    "img": "gambar/a3760237e7b3.jpg"
+  },
+  {
+    "idx": 13,
+    "id": "12584-229197",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 13,
+    "scores": {
+      "A": 1,
+      "B": 3,
+      "C": 5,
+      "D": 4,
+      "E": 2
+    },
+    "is_valid": true,
+    "img": "gambar/11f2a889e157.jpg"
+  },
+  {
+    "idx": 14,
+    "id": "12584-229198",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 14,
+    "scores": {
+      "A": 2,
+      "B": 1,
+      "C": 5,
+      "D": 3,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/bb17b30e9677.jpg"
+  },
+  {
+    "idx": 15,
+    "id": "12584-229199",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 15,
+    "scores": {
+      "A": 5,
+      "B": 3,
+      "C": 4,
+      "D": 1,
+      "E": 2
+    },
+    "is_valid": true,
+    "img": "gambar/0b562a44ae10.jpg"
+  },
+  {
+    "idx": 16,
+    "id": "12584-229200",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 16,
+    "scores": {
+      "A": 2,
+      "B": 5,
+      "C": 1,
+      "D": 3,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/0b37bf5d237c.jpg"
+  },
+  {
+    "idx": 17,
+    "id": "12584-229201",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 17,
+    "scores": {
+      "A": 5,
+      "B": 1,
+      "C": 4,
+      "D": 3,
+      "E": 2
+    },
+    "is_valid": true,
+    "img": "gambar/6dbe6d38643a.jpg"
+  },
+  {
+    "idx": 18,
+    "id": "12584-229202",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 18,
+    "scores": {
+      "A": 2,
+      "B": 1,
+      "C": 5,
+      "D": 3,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/e92cacd80bfb.jpg"
+  },
+  {
+    "idx": 19,
+    "id": "12584-229203",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 19,
+    "scores": {
+      "A": 2,
+      "B": 5,
+      "C": 1,
+      "D": 3,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/4cc0479d534c.jpg"
+  },
+  {
+    "idx": 20,
+    "id": "12584-229204",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 20,
+    "scores": {
+      "A": 2,
+      "B": 1,
+      "C": 5,
+      "D": 3,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/717326012cfc.jpg"
+  },
+  {
+    "idx": 21,
+    "id": "12584-229250",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 21,
+    "scores": {
+      "A": 5,
+      "B": 4,
+      "C": 3,
+      "D": 2,
+      "E": 1
+    },
+    "is_valid": true,
+    "img": "gambar/a8f6ee86d1c2.png"
+  },
+  {
+    "idx": 22,
+    "id": "12584-229251",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 22,
+    "scores": {
+      "A": 3,
+      "B": 5,
+      "C": 4,
+      "D": 2,
+      "E": 1
+    },
+    "is_valid": true,
+    "img": "gambar/184d556cefdf.jpg"
+  },
+  {
+    "idx": 23,
+    "id": "12584-229252",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 23,
+    "scores": {
+      "A": 2,
+      "B": 3,
+      "C": 5,
+      "D": 4,
+      "E": 1
+    },
+    "is_valid": true,
+    "img": "gambar/61863c2e409a.jpg"
+  },
+  {
+    "idx": 24,
+    "id": "12584-229253",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 24,
+    "scores": {
+      "A": 2,
+      "B": 1,
+      "C": 5,
+      "D": 4,
+      "E": 3
+    },
+    "is_valid": true,
+    "img": "gambar/fd6204dcb622.jpg"
+  },
+  {
+    "idx": 25,
+    "id": "12584-229254",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 25,
+    "scores": {
+      "A": 5,
+      "B": 3,
+      "C": 1,
+      "D": 2,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/851b841f9d77.jpg"
+  },
+  {
+    "idx": 26,
+    "id": "12584-229255",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 26,
+    "scores": {
+      "A": 2,
+      "B": 3,
+      "C": 5,
+      "D": 4,
+      "E": 1
+    },
+    "is_valid": true,
+    "img": "gambar/742d8df579cf.png"
+  },
+  {
+    "idx": 27,
+    "id": "12584-229256",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 27,
+    "scores": {
+      "A": 1,
+      "B": 2,
+      "C": 5,
+      "D": 4,
+      "E": 3
+    },
+    "is_valid": true,
+    "img": "gambar/ebaa42a1eb0b.jpg"
+  },
+  {
+    "idx": 28,
+    "id": "12584-229257",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 28,
+    "scores": {
+      "A": 2,
+      "B": 5,
+      "C": 3,
+      "D": 4,
+      "E": 1
+    },
+    "is_valid": true,
+    "img": "gambar/c35c4b4160f4.jpg"
+  },
+  {
+    "idx": 29,
+    "id": "12584-229258",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 29,
+    "scores": {
+      "A": 1,
+      "B": 5,
+      "C": 3,
+      "D": 4,
+      "E": 2
+    },
+    "is_valid": true,
+    "img": "gambar/d1e6b8a60d1f.jpg"
+  },
+  {
+    "idx": 30,
+    "id": "12584-229259",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 30,
+    "scores": {
+      "A": 2,
+      "B": 5,
+      "C": 3,
+      "D": 4,
+      "E": 1
+    },
+    "is_valid": true,
+    "img": "gambar/1534ee5f38b2.jpg"
+  },
+  {
+    "idx": 31,
+    "id": "12584-229260",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 31,
+    "scores": {
+      "A": 3,
+      "B": 1,
+      "C": 5,
+      "D": 2,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/0baa5fd496ad.jpg"
+  },
+  {
+    "idx": 32,
+    "id": "12584-229261",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 32,
+    "scores": {
+      "A": 2,
+      "B": 1,
+      "C": 5,
+      "D": 3,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/e13b349228f5.jpg"
+  },
+  {
+    "idx": 33,
+    "id": "12584-229262",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 33,
+    "scores": {
+      "A": 2,
+      "B": 5,
+      "C": 1,
+      "D": 3,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/fa675f789258.jpg"
+  },
+  {
+    "idx": 34,
+    "id": "12584-229263",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 34,
+    "scores": {
+      "A": 3,
+      "B": 5,
+      "C": 1,
+      "D": 2,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/a3278e0de05b.png"
+  },
+  {
+    "idx": 35,
+    "id": "12584-229264",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 35,
+    "scores": {
+      "A": 2,
+      "B": 5,
+      "C": 1,
+      "D": 3,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/4dfb652f840f.jpg"
+  },
+  {
+    "idx": 36,
+    "id": "12584-229265",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 36,
+    "scores": {
+      "A": 2,
+      "B": 5,
+      "C": 3,
+      "D": 4,
+      "E": 1
+    },
+    "is_valid": true,
+    "img": "gambar/a1c8b7398b37.jpg"
+  },
+  {
+    "idx": 37,
+    "id": "12584-229266",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 37,
+    "scores": {
+      "A": 2,
+      "B": 3,
+      "C": 5,
+      "D": 4,
+      "E": 1
+    },
+    "is_valid": true,
+    "img": "gambar/e8f4612f7824.png"
+  },
+  {
+    "idx": 38,
+    "id": "12584-229267",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 38,
+    "scores": {
+      "A": 2,
+      "B": 5,
+      "C": 1,
+      "D": 3,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/db3942d66659.jpg"
+  },
+  {
+    "idx": 39,
+    "id": "12584-229268",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 39,
+    "scores": {
+      "A": 2,
+      "B": 5,
+      "C": 3,
+      "D": 4,
+      "E": 1
+    },
+    "is_valid": true,
+    "img": "gambar/e5d23733630d.jpg"
+  },
+  {
+    "idx": 40,
+    "id": "12584-229269",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 40,
+    "scores": {
+      "A": 3,
+      "B": 5,
+      "C": 1,
+      "D": 2,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/0bfb03fbbf28.jpg"
+  },
+  {
+    "idx": 41,
+    "id": "12584-229270",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 41,
+    "scores": {
+      "A": 1,
+      "B": 3,
+      "C": 5,
+      "D": 4,
+      "E": 2
+    },
+    "is_valid": true,
+    "img": "gambar/cbefa39f23b4.jpg"
+  },
+  {
+    "idx": 42,
+    "id": "12584-229271",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 42,
+    "scores": {
+      "A": 1,
+      "B": 2,
+      "C": 5,
+      "D": 3,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/5961caddc632.jpg"
+  },
+  {
+    "idx": 43,
+    "id": "12584-229272",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 43,
+    "scores": {
+      "A": 1,
+      "B": 3,
+      "C": 5,
+      "D": 4,
+      "E": 2
+    },
+    "is_valid": true,
+    "img": "gambar/0acf4a79d106.jpg"
+  },
+  {
+    "idx": 44,
+    "id": "12584-229273",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 44,
+    "scores": {
+      "A": 1,
+      "B": 3,
+      "C": 5,
+      "D": 2,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/28feca72f760.jpg"
+  },
+  {
+    "idx": 45,
+    "id": "12584-229274",
+    "paket": "TRY OUT SKD CASN 2027 - PART 27",
+    "no": 45,
+    "scores": {
+      "A": 1,
+      "B": 2,
+      "C": 5,
+      "D": 4,
+      "E": 3
+    },
+    "is_valid": true,
+    "img": "gambar/13b688404bfa.jpg"
+  },
+  {
+    "idx": 46,
+    "id": "12585-229205",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 1,
+    "scores": {
+      "A": 5,
+      "B": 1,
+      "C": 4,
+      "D": 3,
+      "E": 2
+    },
+    "is_valid": true,
+    "img": "gambar/6d218e6c9c8e.png"
+  },
+  {
+    "idx": 47,
+    "id": "12585-229206",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 2,
+    "scores": {
+      "A": 1,
+      "B": 3,
+      "C": 5,
+      "D": 2,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/526d7e892e7b.png"
+  },
+  {
+    "idx": 48,
+    "id": "12585-229207",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 3,
+    "scores": {
+      "A": 1,
+      "B": 4,
+      "C": 5,
+      "D": 2,
+      "E": 3
+    },
+    "is_valid": true,
+    "img": "gambar/e0acde83dcdf.png"
+  },
+  {
+    "idx": 49,
+    "id": "12585-229208",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 4,
+    "scores": {
+      "A": 4,
+      "B": 5,
+      "C": 3,
+      "D": 1,
+      "E": 2
+    },
+    "is_valid": true,
+    "img": "gambar/5b33f23bed6b.png"
+  },
+  {
+    "idx": 50,
+    "id": "12585-229209",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 5,
+    "scores": {
+      "A": 5,
+      "B": 2,
+      "C": 4,
+      "D": 1,
+      "E": 3
+    },
+    "is_valid": true,
+    "img": "gambar/1a79a3d85305.png"
+  },
+  {
+    "idx": 51,
+    "id": "12585-229210",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 6,
+    "scores": {
+      "A": 4,
+      "B": 3,
+      "C": 5,
+      "D": 2,
+      "E": 1
+    },
+    "is_valid": true,
+    "img": "gambar/42f10392e948.png"
+  },
+  {
+    "idx": 52,
+    "id": "12585-229211",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 7,
+    "scores": {
+      "A": 5,
+      "B": 4,
+      "C": 3,
+      "D": 2,
+      "E": 1
+    },
+    "is_valid": true,
+    "img": "gambar/83983e8cbb7b.png"
+  },
+  {
+    "idx": 53,
+    "id": "12585-229212",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 8,
+    "scores": {
+      "A": 1,
+      "B": 4,
+      "C": 3,
+      "D": 2,
+      "E": 5
+    },
+    "is_valid": true,
+    "img": "gambar/a7b686aa4d13.png"
+  },
+  {
+    "idx": 54,
+    "id": "12585-229213",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 9,
+    "scores": {
+      "A": 3,
+      "B": 4,
+      "C": 2,
+      "D": 5,
+      "E": 1
+    },
+    "is_valid": true,
+    "img": "gambar/71524d88fea5.png"
+  },
+  {
+    "idx": 55,
+    "id": "12585-229214",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 10,
+    "scores": {
+      "A": 4,
+      "B": 2,
+      "C": 5,
+      "D": 3,
+      "E": 1
+    },
+    "is_valid": true,
+    "img": "gambar/484e30909ef8.png"
+  },
+  {
+    "idx": 56,
+    "id": "12585-229215",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 11,
+    "scores": {
+      "A": 3,
+      "B": 1,
+      "C": 5,
+      "D": 4,
+      "E": 2
+    },
+    "is_valid": true,
+    "img": "gambar/b4604abc763d.png"
+  },
+  {
+    "idx": 57,
+    "id": "12585-229216",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 12,
+    "scores": {
+      "A": 3,
+      "B": 2,
+      "C": 4,
+      "D": 1,
+      "E": 5
+    },
+    "is_valid": true,
+    "img": "gambar/c1171f2f2ff4.png"
+  },
+  {
+    "idx": 58,
+    "id": "12585-229217",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 13,
+    "scores": {
+      "A": 3,
+      "B": 1,
+      "C": 4,
+      "D": 2,
+      "E": 5
+    },
+    "is_valid": true,
+    "img": "gambar/ffea0e0e4f60.png"
+  },
+  {
+    "idx": 59,
+    "id": "12585-229218",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 14,
+    "scores": {
+      "A": 5,
+      "B": 4,
+      "C": 2,
+      "D": 3,
+      "E": 1
+    },
+    "is_valid": true,
+    "img": "gambar/5f90a6a5d1e6.png"
+  },
+  {
+    "idx": 60,
+    "id": "12585-229219",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 15,
+    "scores": {
+      "A": 5,
+      "B": 1,
+      "C": 3,
+      "D": 2,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/292e2c75aed9.png"
+  },
+  {
+    "idx": 61,
+    "id": "12585-229220",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 16,
+    "scores": {
+      "A": 2,
+      "B": 4,
+      "C": 5,
+      "D": 1,
+      "E": 3
+    },
+    "is_valid": true,
+    "img": "gambar/1cc4c3af48d2.png"
+  },
+  {
+    "idx": 62,
+    "id": "12585-229221",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 17,
+    "scores": {
+      "A": 4,
+      "B": 3,
+      "C": 2,
+      "D": 1,
+      "E": 5
+    },
+    "is_valid": true,
+    "img": "gambar/87e26f350eb6.png"
+  },
+  {
+    "idx": 63,
+    "id": "12585-229222",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 18,
+    "scores": {
+      "A": 4,
+      "B": 5,
+      "C": 1,
+      "D": 3,
+      "E": 2
+    },
+    "is_valid": true,
+    "img": "gambar/c73f5af77e7c.png"
+  },
+  {
+    "idx": 64,
+    "id": "12585-229223",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 19,
+    "scores": {
+      "A": 4,
+      "B": 1,
+      "C": 3,
+      "D": 5,
+      "E": 2
+    },
+    "is_valid": true,
+    "img": "gambar/3a1d1f42e455.png"
+  },
+  {
+    "idx": 65,
+    "id": "12585-229224",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 20,
+    "scores": {
+      "A": 5,
+      "B": 1,
+      "C": 2,
+      "D": 4,
+      "E": 3
+    },
+    "is_valid": true,
+    "img": "gambar/6c5dd6d6e54d.png"
+  },
+  {
+    "idx": 66,
+    "id": "12585-229225",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 21,
+    "scores": {
+      "A": 1,
+      "B": 5,
+      "C": 4,
+      "D": 3,
+      "E": 2
+    },
+    "is_valid": true,
+    "img": "gambar/1a6f891106fc.png"
+  },
+  {
+    "idx": 67,
+    "id": "12585-229226",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 22,
+    "scores": {
+      "A": 4,
+      "B": 2,
+      "C": 3,
+      "D": 1,
+      "E": 5
+    },
+    "is_valid": true,
+    "img": "gambar/15fa5c56f9ec.png"
+  },
+  {
+    "idx": 68,
+    "id": "12585-229227",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 23,
+    "scores": {
+      "A": 3,
+      "B": 4,
+      "C": 2,
+      "D": 1,
+      "E": 5
+    },
+    "is_valid": true,
+    "img": "gambar/4efdd139aa80.png"
+  },
+  {
+    "idx": 69,
+    "id": "12585-229228",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 24,
+    "scores": {
+      "A": 4,
+      "B": 3,
+      "C": 2,
+      "D": 5,
+      "E": 1
+    },
+    "is_valid": true,
+    "img": "gambar/1002203dcf07.png"
+  },
+  {
+    "idx": 70,
+    "id": "12585-229229",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 25,
+    "scores": {
+      "A": 3,
+      "B": 1,
+      "C": 4,
+      "D": 2,
+      "E": 5
+    },
+    "is_valid": true,
+    "img": "gambar/42c52db262eb.png"
+  },
+  {
+    "idx": 71,
+    "id": "12585-229230",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 26,
+    "scores": {
+      "A": 2,
+      "B": 1,
+      "C": 5,
+      "D": 4,
+      "E": 3
+    },
+    "is_valid": true,
+    "img": "gambar/1ccc299c160c.png"
+  },
+  {
+    "idx": 72,
+    "id": "12585-229231",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 27,
+    "scores": {
+      "A": 2,
+      "B": 5,
+      "C": 1,
+      "D": 4,
+      "E": 3
+    },
+    "is_valid": true,
+    "img": "gambar/0fb68c43f730.png"
+  },
+  {
+    "idx": 73,
+    "id": "12585-229232",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 28,
+    "scores": {
+      "A": 1,
+      "B": 4,
+      "C": 3,
+      "D": 2,
+      "E": 5
+    },
+    "is_valid": true,
+    "img": "gambar/f93a774880ca.png"
+  },
+  {
+    "idx": 74,
+    "id": "12585-229233",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 29,
+    "scores": {
+      "A": 3,
+      "B": 1,
+      "C": 2,
+      "D": 5,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/916837fad86f.png"
+  },
+  {
+    "idx": 75,
+    "id": "12585-229234",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 30,
+    "scores": {
+      "A": 1,
+      "B": 5,
+      "C": 3,
+      "D": 2,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/7e3f88ebdb61.png"
+  },
+  {
+    "idx": 76,
+    "id": "12585-229235",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 31,
+    "scores": {
+      "A": 2,
+      "B": 1,
+      "C": 5,
+      "D": 4,
+      "E": 3
+    },
+    "is_valid": true,
+    "img": "gambar/7f3be67595d8.png"
+  },
+  {
+    "idx": 77,
+    "id": "12585-229236",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 32,
+    "scores": {
+      "A": 1,
+      "B": 4,
+      "C": 2,
+      "D": 3,
+      "E": 5
+    },
+    "is_valid": true,
+    "img": "gambar/a2f3514b586f.png"
+  },
+  {
+    "idx": 78,
+    "id": "12585-229237",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 33,
+    "scores": {
+      "A": 5,
+      "B": 3,
+      "C": 2,
+      "D": 1,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/129b53d43897.png"
+  },
+  {
+    "idx": 79,
+    "id": "12585-229238",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 34,
+    "scores": {
+      "A": 2,
+      "B": 1,
+      "C": 4,
+      "D": 3,
+      "E": 5
+    },
+    "is_valid": true,
+    "img": "gambar/9cc3485e1202.png"
+  },
+  {
+    "idx": 80,
+    "id": "12585-229239",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 35,
+    "scores": {
+      "A": 1,
+      "B": 4,
+      "C": 3,
+      "D": 5,
+      "E": 2
+    },
+    "is_valid": true,
+    "img": "gambar/7146f609d8ee.png"
+  },
+  {
+    "idx": 81,
+    "id": "12585-229240",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 36,
+    "scores": {
+      "A": 2,
+      "B": 5,
+      "C": 3,
+      "D": 1,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/49c48ca19cc2.png"
+  },
+  {
+    "idx": 82,
+    "id": "12585-229241",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 37,
+    "scores": {
+      "A": 5,
+      "B": 2,
+      "C": 3,
+      "D": 1,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/4883bbb6a762.png"
+  },
+  {
+    "idx": 83,
+    "id": "12585-229242",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 38,
+    "scores": {
+      "A": 2,
+      "B": 4,
+      "C": 1,
+      "D": 5,
+      "E": 3
+    },
+    "is_valid": true,
+    "img": "gambar/a5d10cd2e023.png"
+  },
+  {
+    "idx": 84,
+    "id": "12585-229243",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 39,
+    "scores": {
+      "A": 3,
+      "B": 2,
+      "C": 1,
+      "D": 5,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/d146375b2da7.png"
+  },
+  {
+    "idx": 85,
+    "id": "12585-229244",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 40,
+    "scores": {
+      "A": 5,
+      "B": 2,
+      "C": 1,
+      "D": 4,
+      "E": 3
+    },
+    "is_valid": true,
+    "img": "gambar/094836795d92.png"
+  },
+  {
+    "idx": 86,
+    "id": "12585-229245",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 41,
+    "scores": {
+      "A": 4,
+      "B": 3,
+      "C": 2,
+      "D": 5,
+      "E": 1
+    },
+    "is_valid": true,
+    "img": "gambar/30f413c50ce2.png"
+  },
+  {
+    "idx": 87,
+    "id": "12585-229246",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 42,
+    "scores": {
+      "A": 5,
+      "B": 3,
+      "C": 2,
+      "D": 1,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/f511b4af6eac.png"
+  },
+  {
+    "idx": 88,
+    "id": "12585-229247",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 43,
+    "scores": {
+      "A": 4,
+      "B": 3,
+      "C": 2,
+      "D": 5,
+      "E": 1
+    },
+    "is_valid": true,
+    "img": "gambar/f9f10148fefa.png"
+  },
+  {
+    "idx": 89,
+    "id": "12585-229248",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 44,
+    "scores": {
+      "A": 1,
+      "B": 2,
+      "C": 3,
+      "D": 4,
+      "E": 5
+    },
+    "is_valid": true,
+    "img": "gambar/fbc5b4d1423a.png"
+  },
+  {
+    "idx": 90,
+    "id": "12585-229249",
+    "paket": "TRY OUT SKD CASN 2027 - PART 28",
+    "no": 45,
+    "scores": {
+      "A": 1,
+      "B": 5,
+      "C": 2,
+      "D": 3,
+      "E": 4
+    },
+    "is_valid": true,
+    "img": "gambar/067781933c9f.png"
+  }
+]
