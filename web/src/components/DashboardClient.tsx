@@ -184,15 +184,21 @@ export const DashboardClient: React.FC<DashboardClientProps> = ({
   };
 
   const getAttemptTitle = (item: AttemptRecord) => {
+    // Priority 1: gunakan judul exam dari join (paket bernama)
     const examTitle = Array.isArray(item.exams)
       ? item.exams[0]?.judul
       : item.exams?.judul;
     if (examTitle) return examTitle;
 
+    // Priority 2: label berdasarkan mode
     switch (item.mode) {
       case 'tryout':
         return 'Try Out Penuh (110 Soal)';
       case 'subtes':
+        // mode 'subtes' bisa dari paket lama, tampilkan subtes-nya jika ada
+        if (item.subtes === 'TIU') return 'Subtes TIU (35 Soal)';
+        if (item.subtes === 'TWK') return 'Subtes TWK (30 Soal)';
+        if (item.subtes === 'TKP') return 'Subtes TKP (45 Soal)';
         return item.subtes ? `Subtes ${item.subtes}` : 'Latihan Subtes';
       case 'subtes_twk':
         return 'Subtes TWK (30 Soal)';
@@ -201,11 +207,13 @@ export const DashboardClient: React.FC<DashboardClientProps> = ({
       case 'subtes_tkp':
         return 'Subtes TKP (45 Soal)';
       case 'latihan_topik':
-        return `Latihan Topik ${item.subtes || ''}`.trim();
+        return `Latihan Topik${item.subtes ? ': ' + item.subtes : ''}`;
       case 'ulangi_salah':
         return 'Ulangi Soal Salah';
       default:
-        return item.subtes ? `${item.mode} ${item.subtes}` : item.mode;
+        // fallback: tampilkan mode + subtes dengan format yang lebih rapi
+        if (item.subtes) return `${item.subtes} — ${item.mode}`;
+        return item.mode ? item.mode.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase()) : 'Sesi Ujian';
     }
   };
 

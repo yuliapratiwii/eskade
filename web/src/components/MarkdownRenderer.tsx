@@ -14,23 +14,25 @@ function preprocessMarkdown(content: string): string {
   if (!content) return '';
   return content
     // Convert \[ ... \] to $$ ... $$ (display math)
-    .replace(/\\\[([\s\S]*?)\\\]/g, (_, math) => {
+    .replace(/\\\[([\\s\\S]*?)\\\]/g, (_, math) => {
       const clean = math.replace(/\\\s+/g, ' ').trim();
       return `$$${clean}$$`;
     })
     // Convert \( ... \) to $ ... $ (inline math)
-    .replace(/\\\(([\s\S]*?)\\\)/g, (_, math) => {
+    .replace(/\\\(([\\s\\S]*?)\\\)/g, (_, math) => {
       const clean = math.replace(/\\\s+/g, ' ').trim();
       return `$${clean}$`;
     })
-    // Also clean escaped comparison operators \ >, \ <, \ =
-    .replace(/\\\s*([><=])/g, ' $1 ')
+    // Also clean escaped comparison operators \>, \<, \=
+    .replace(/\\\s*([><])/g, ' $1 ')
     // Fix number sequence backslash comma (e.g. 1\, 3\, -> 1, 3, )
     .replace(/(\d)\s*\\,\s*/g, (m, d) => `${d}, `)
     // Fix mixed fractions: integer directly followed by fraction (e.g. 3\frac{3}{4} -> 3\ \frac{3}{4})
     .replace(/(\d)(\\d?frac\{)/g, (m, d, f) => `${d}\\ ${f}`)
     // Fix nested fraction with negative denominator \frac{9}{-\frac{1}{3}} -> \frac{9}{\left(-\frac{1}{3}\right)}
-    .replace(/\\frac\{([^}]+)\}\{-\\frac\{([^}]+)\}\{([^}]+)\}\}/g, (m, a, b, c) => `\\frac{${a}}{\\left(-\\frac{${b}}{${c}}\\right)}`);
+    .replace(/\\frac\{([^}]+)\}\{-\\frac\{([^}]+)\}\{([^}]+)\}\}/g, (m, a, b, c) => `\\frac{${a}}{\\left(-\\frac{${b}}{${c}}\\right)}`)
+    // Convert \frac to \dfrac inside inline math $...$ so fractions render at full size (not cramped script-size)
+    .replace(/\$([^$\n]+)\$/g, (m, inner) => '$' + inner.replace(/\\frac/g, '\\dfrac') + '$');
 }
 
 const REMARK_PLUGINS = [remarkGfm, remarkMath];
