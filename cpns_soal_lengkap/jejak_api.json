@@ -1,0 +1,164 @@
+[
+ {
+  "method": "GET",
+  "status": 200,
+  "url": "chrome-extension://eenjdnjldapjajjofmldgmkjaienebbj/config/config.json",
+  "ukuran": "?"
+ },
+ {
+  "method": "POST",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/global/paket-program-post",
+  "ukuran": "45549"
+ },
+ {
+  "method": "GET",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/dashboard/banner",
+  "ukuran": "420"
+ },
+ {
+  "method": "GET",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/pengaturan/appconfig",
+  "ukuran": "734"
+ },
+ {
+  "method": "POST",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/global/paket-kelas-online-post",
+  "ukuran": "14923"
+ },
+ {
+  "method": "GET",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/global/tryoutku/paket?incSummaryPaket=true&jadwalUjianID=12584&tryoutKuID=1967224",
+  "ukuran": "2024"
+ },
+ {
+  "method": "GET",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/global/tryoutku/hasil-paket?incDetailHasil=true&jadwalUjianID=12584&tryoutKuID=1967224",
+  "ukuran": "4160"
+ },
+ {
+  "method": "POST",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/global/tryoutku",
+  "ukuran": "2325"
+ },
+ {
+  "method": "GET",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/global/tryoutku/1967224",
+  "ukuran": "1056"
+ },
+ {
+  "method": "GET",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/global/tryoutku/paket?Keyword=&PageSize=10&filters=&pageSize=10&skip=0&tryoutKuID=1967224",
+  "ukuran": "4611"
+ },
+ {
+  "method": "GET",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/global/tryoutku/paket?incSummaryPaket=true&jadwalUjianID=12584&tryoutKuID=1967224",
+  "ukuran": "2024"
+ },
+ {
+  "method": "GET",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/global/tryoutku/hasil-paket?incDetailHasil=true&jadwalUjianID=12584&tryoutKuID=1967224",
+  "ukuran": "4160"
+ },
+ {
+  "method": "GET",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/ujian/pembahasan/12584?jadwalUjianAbsensiID=6469339&tryoutKuID=1967224",
+  "ukuran": "239809"
+ },
+ {
+  "method": "POST",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/ujian/jawaban-by-absensi",
+  "ukuran": "15308"
+ },
+ {
+  "method": "GET",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/pengaturan/appconfig",
+  "ukuran": "734"
+ },
+ {
+  "method": "POST",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/global/paket-program-post",
+  "ukuran": "45549"
+ },
+ {
+  "method": "GET",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/dashboard/banner",
+  "ukuran": "420"
+ },
+ {
+  "method": "POST",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/global/paket-kelas-online-post",
+  "ukuran": "14923"
+ },
+ {
+  "method": "GET",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/global/tryoutku/paket?incSummaryPaket=true&jadwalUjianID=12584&tryoutKuID=1967224",
+  "ukuran": "2024"
+ },
+ {
+  "method": "GET",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/global/tryoutku/hasil-paket?incDetailHasil=true&jadwalUjianID=12584&tryoutKuID=1967224",
+  "ukuran": "4160"
+ },
+ {
+  "method": "POST",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/global/tryoutku",
+  "ukuran": "2325"
+ },
+ {
+  "method": "GET",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/global/tryoutku/1967224",
+  "ukuran": "1056"
+ },
+ {
+  "method": "GET",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/global/tryoutku/paket?Keyword=&PageSize=10&filters=&pageSize=10&skip=0&tryoutKuID=1967224",
+  "ukuran": "4611"
+ },
+ {
+  "method": "GET",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/global/tryoutku/paket?incSummaryPaket=true&jadwalUjianID=12585&tryoutKuID=1967224",
+  "ukuran": "2024"
+ },
+ {
+  "method": "GET",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/global/tryoutku/hasil-paket?incDetailHasil=true&jadwalUjianID=12585&tryoutKuID=1967224",
+  "ukuran": "2154"
+ },
+ {
+  "method": "GET",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/ujian/pembahasan/12585?jadwalUjianAbsensiID=7483150&tryoutKuID=1967224",
+  "ukuran": "243188"
+ },
+ {
+  "method": "POST",
+  "status": 200,
+  "url": "https://service26.tryoutsiswa.com/api/ujian/jawaban-by-absensi",
+  "ukuran": "14024"
+ }
+]

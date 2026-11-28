@@ -1,0 +1,31 @@
+total soal: 660 | part: 6
+
+[TIU] 210 soal
+  kunci_raw (sebaran): {1: 37, 2: 53, 3: 56, 4: 31, 5: 33}
+  kunci terisi: 210/210
+  jenis: {1: 210}
+  skor (nilai unik): [0.0]
+  jumlah opsi: {5: 210}
+  keterangan terisi: 0 | bergambar: 129
+  gambar di: soal=75, opsi=25, pembahasan=115
+  file gambar unik: 359 | paling sering berulang: 1x
+
+[TKP] 270 soal
+  kunci_raw (sebaran): {1: 55, 2: 59, 3: 60, 4: 49, 5: 47}
+  kunci terisi: 270/270
+  jenis: {1: 270}
+  skor (nilai unik): [0.0]
+  jumlah opsi: {5: 270}
+  keterangan terisi: 0 | bergambar: 270
+  gambar di: soal=0, opsi=0, pembahasan=270
+  file gambar unik: 270 | paling sering berulang: 1x
+
+[TWK] 180 soal
+  kunci_raw (sebaran): {1: 29, 2: 36, 3: 45, 4: 33, 5: 37}
+  kunci terisi: 180/180
+  jenis: {1: 180}
+  skor (nilai unik): [0.0]
+  jumlah opsi: {5: 180}
+  keterangan terisi: 0 | bergambar: 0
+  gambar di: soal=0, opsi=0, pembahasan=0
+  file gambar unik: 0 | paling sering berulang: 0x

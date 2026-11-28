@@ -1,0 +1,123 @@
+=== pembahasan 12584 ===
+$: objek (3 field)
+  statusCode: int
+  message: teks (panjang 7)
+  data: objek (15 field)
+    paketID: int
+    nama: teks (panjang 31)
+    deskripsi: teks (panjang 31)
+    jadwalUjianID: int
+    sekarang: teks (panjang 28)
+    startUjian: teks (panjang 20)
+    endUjian: teks (panjang 20)
+    isPerPelajaran: bool
+    ujianPelajaran: daftar [3 item]
+      item[0]: objek (17 field)
+        namaPelajaran: teks (panjang 22)
+        startUjian: teks (panjang 20)
+        jumlahSoal: int
+        nilaiPassing: float
+        dataSoal: daftar [30 item]
+          item[0]: objek (21 field)
+            soalID: int
+            bab: teks (panjang 1)
+            skor: float
+            pertanyaan: teks (panjang 182) +html
+            pembahasan: teks (panjang 1189) +html
+            pilihan1: teks (panjang 116) +html
+            pilihan2: teks (panjang 125) +html
+            pilihan3: teks (panjang 107) +html
+            pilihan4: teks (panjang 107) +html
+            pilihan5: teks (panjang 99) +html
+            pilihan6: teks (panjang 0)
+            pilihan7: teks (panjang 0)
+            pilihan8: teks (panjang 0)
+            pilihan9: teks (panjang 0)
+            pilihan10: teks (panjang 0)
+            pilihan11: teks (panjang 0)
+            jawabanBenar: int
+            jenis: int
+            keterangan: teks (panjang 0)
+            jumlahLabel: int
+            useKeterangan: bool
+        paketPelajaranID: int
+        paketID: int
+        pelajaranID: int
+        seq: int
+        durasi: float
+        createdBy: int
+        createdDate: teks (panjang 24)
+        updatedBy: int
+        updatedDate: teks (panjang 24)
+        jenis: int
+        jadwalUjianNilais: daftar [0 item]
+        soals: daftar [0 item]
+    hideTimer: bool
+    layoutUjian: int
+    jenisPaket: int
+    upgradeIDs: daftar [0 item]
+    createdDate: teks (panjang 24)
+    updatedDate: teks (panjang 24)
+
+=== pembahasan 12585 ===
+$: objek (3 field)
+  statusCode: int
+  message: teks (panjang 7)
+  data: objek (15 field)
+    paketID: int
+    nama: teks (panjang 31)
+    deskripsi: teks (panjang 31)
+    jadwalUjianID: int
+    sekarang: teks (panjang 28)
+    startUjian: teks (panjang 20)
+    endUjian: teks (panjang 20)
+    isPerPelajaran: bool
+    ujianPelajaran: daftar [3 item]
+      item[0]: objek (17 field)
+        namaPelajaran: teks (panjang 22)
+        startUjian: teks (panjang 20)
+        jumlahSoal: int
+        nilaiPassing: float
+        dataSoal: daftar [30 item]
+          item[0]: objek (17 field)
+            soalID: int
+            bab: teks (panjang 1)
+            skor: float
+            pertanyaan: teks (panjang 262) +html
+            pembahasan: teks (panjang 1240) +html
+            pilihan1: teks (panjang 94) +html
+            pilihan2: teks (panjang 117) +html
+            pilihan3: teks (panjang 135) +html
+            pilihan4: teks (panjang 125) +html
+            pilihan5: teks (panjang 120) +html
+            pilihan6: teks (panjang 0)
+            pilihan7: teks (panjang 0)
+            pilihan8: teks (panjang 0)
+            pilihan9: teks (panjang 0)
+            jawabanBenar: int
+            jenis: int
+            keterangan: teks (panjang 0)
+        paketPelajaranID: int
+        paketID: int
+        pelajaranID: int
+        seq: int
+        durasi: float
+        createdBy: int
+        createdDate: teks (panjang 24)
+        updatedBy: int
+        updatedDate: teks (panjang 24)
+        jenis: int
+        jadwalUjianNilais: daftar [0 item]
+        soals: daftar [0 item]
+    hideTimer: bool
+    layoutUjian: int
+    jenisPaket: int
+    upgradeIDs: daftar [0 item]
+    createdDate: teks (panjang 24)
+    updatedDate: teks (panjang 24)
+
+=== body POST /api/ujian/jawaban-by-absensi ===
+$: objek (3 field)
+  paketID: int
+  jadwalUjianID: int
+  jadwalUjianAbsensiID: int
