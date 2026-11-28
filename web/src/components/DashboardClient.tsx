@@ -41,6 +41,8 @@ interface AttemptRecord {
   selesai: string | null;
   skor: number | null;
   durasi_detik: number | null;
+  exam_id?: string | null;
+  exams?: { judul?: string | null } | { judul?: string | null }[] | null;
 }
 
 export interface ActiveExamInfo {
@@ -181,20 +183,29 @@ export const DashboardClient: React.FC<DashboardClientProps> = ({
     }
   };
 
-  const getModeLabel = (mode: string, subtes: string | null) => {
-    switch (mode) {
+  const getAttemptTitle = (item: AttemptRecord) => {
+    const examTitle = Array.isArray(item.exams)
+      ? item.exams[0]?.judul
+      : item.exams?.judul;
+    if (examTitle) return examTitle;
+
+    switch (item.mode) {
       case 'tryout':
-        return 'Try Out Penuh (65 Soal)';
+        return 'Try Out Penuh (110 Soal)';
+      case 'subtes':
+        return item.subtes ? `Subtes ${item.subtes}` : 'Latihan Subtes';
       case 'subtes_twk':
         return 'Subtes TWK (30 Soal)';
       case 'subtes_tiu':
         return 'Subtes TIU (35 Soal)';
+      case 'subtes_tkp':
+        return 'Subtes TKP (45 Soal)';
       case 'latihan_topik':
-        return `Latihan Topik ${subtes || ''}`;
+        return `Latihan Topik ${item.subtes || ''}`.trim();
       case 'ulangi_salah':
         return 'Ulangi Soal Salah';
       default:
-        return mode;
+        return item.subtes ? `${item.mode} ${item.subtes}` : item.mode;
     }
   };
 
@@ -661,7 +672,7 @@ export const DashboardClient: React.FC<DashboardClientProps> = ({
 
                     <div className="min-w-0">
                       <div className="font-semibold text-slate-800 truncate">
-                        {getModeLabel(item.mode, item.subtes)}
+                        {getAttemptTitle(item)}
                       </div>
                       <div className="flex items-center gap-2 text-[11px] text-slate-400 mt-0.5">
                         <span className="flex items-center gap-1">

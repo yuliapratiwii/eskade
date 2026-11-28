@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactMarkdown from 'react-markdown';
+import React, { memo, useMemo } from 'react';
+import ReactMarkdown, { Components } from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
@@ -33,46 +33,61 @@ function preprocessMarkdown(content: string): string {
     .replace(/\\frac\{([^}]+)\}\{-\\frac\{([^}]+)\}\{([^}]+)\}\}/g, (m, a, b, c) => `\\frac{${a}}{\\left(-\\frac{${b}}{${c}}\\right)}`);
 }
 
-export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content, className = '' }) => {
-  const formattedContent = preprocessMarkdown(content || '');
+const REMARK_PLUGINS = [remarkGfm, remarkMath];
+const REHYPE_PLUGINS: any[] = [
+  [
+    rehypeKatex,
+    {
+      output: 'html',
+      throwOnError: false,
+      strict: false,
+    },
+  ],
+];
+
+const MARKDOWN_COMPONENTS: Components = {
+  table: ({ node, ...props }) => (
+    <div className="overflow-x-auto my-3 border border-slate-200 rounded-lg shadow-xs">
+      <table className="min-w-full divide-y divide-slate-200 text-xs md:text-sm" {...props} />
+    </div>
+  ),
+  th: ({ node, ...props }) => (
+    <th className="bg-slate-100 px-3 py-2 text-left font-semibold text-slate-700" {...props} />
+  ),
+  td: ({ node, ...props }) => (
+    <td className="px-3 py-2 border-t border-slate-100 text-slate-700" {...props} />
+  ),
+  p: ({ node, ...props }) => <p className="mb-2 last:mb-0" {...props} />,
+  ul: ({ node, ...props }) => <ul className="list-disc pl-5 my-2 space-y-1" {...props} />,
+  ol: ({ node, ...props }) => <ol className="list-decimal pl-5 my-2 space-y-1" {...props} />,
+  img: ({ node, src, alt, ...props }) => {
+    const resolvedSrc = typeof src === 'string' && src.startsWith('gambar/') ? `/${src}` : src;
+    return (
+      // eslint-disable-next-line @next/next/no-img-element
+      <img
+        src={resolvedSrc}
+        className="max-w-full h-auto rounded-md my-2 border border-slate-200"
+        alt={alt || 'Gambar'}
+        {...props}
+      />
+    );
+  },
+};
+
+export const MarkdownRenderer: React.FC<MarkdownRendererProps> = memo(({ content, className = '' }) => {
+  const formattedContent = useMemo(() => preprocessMarkdown(content || ''), [content]);
 
   return (
     <div className={`prose prose-slate max-w-none text-slate-800 leading-relaxed text-sm md:text-base ${className}`}>
       <ReactMarkdown
-        remarkPlugins={[remarkGfm, remarkMath]}
-        rehypePlugins={[
-          [
-            rehypeKatex,
-            {
-              output: 'html',
-              throwOnError: false,
-              strict: false,
-            },
-          ],
-        ]}
-        components={{
-          table: ({ node, ...props }) => (
-            <div className="overflow-x-auto my-3 border border-slate-200 rounded-lg shadow-xs">
-              <table className="min-w-full divide-y divide-slate-200 text-xs md:text-sm" {...props} />
-            </div>
-          ),
-          th: ({ node, ...props }) => (
-            <th className="bg-slate-100 px-3 py-2 text-left font-semibold text-slate-700" {...props} />
-          ),
-          td: ({ node, ...props }) => (
-            <td className="px-3 py-2 border-t border-slate-100 text-slate-700" {...props} />
-          ),
-          p: ({ node, ...props }) => <p className="mb-2 last:mb-0" {...props} />,
-          ul: ({ node, ...props }) => <ul className="list-disc pl-5 my-2 space-y-1" {...props} />,
-          ol: ({ node, ...props }) => <ol className="list-decimal pl-5 my-2 space-y-1" {...props} />,
-          img: ({ node, ...props }) => (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img className="max-w-full h-auto rounded-md my-2 border border-slate-200" alt={props.alt || 'Gambar'} {...props} />
-          ),
-        }}
+        remarkPlugins={REMARK_PLUGINS}
+        rehypePlugins={REHYPE_PLUGINS}
+        components={MARKDOWN_COMPONENTS}
       >
         {formattedContent}
       </ReactMarkdown>
     </div>
   );
-};
+});
+
+MarkdownRenderer.displayName = 'MarkdownRenderer';

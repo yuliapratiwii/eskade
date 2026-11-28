@@ -24,7 +24,7 @@ export default async function HomePage() {
   // Fetch user attempts history
   const { data: attempts } = await supabase
     .from('attempts')
-    .select('id, mode, subtes, mulai, selesai, skor, durasi_detik')
+    .select('id, mode, subtes, mulai, selesai, skor, durasi_detik, exam_id, exams(judul)')
     .eq('user_id', user.id)
     .order('mulai', { ascending: false });
 

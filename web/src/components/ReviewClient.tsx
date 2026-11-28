@@ -236,9 +236,8 @@ export const ReviewClient: React.FC<ReviewClientProps> = ({
               {/* Gambar Soal (Figural / Diagram) */}
               {activeItem.question.gambar_url && !(
                 activeItem.question.soal && (
-                  activeItem.question.soal.includes('![gambar') ||
-                  activeItem.question.soal.includes('<img') ||
-                  activeItem.question.soal.includes(activeItem.question.gambar_url)
+                  /!\[[^\]]*\]|<img/i.test(activeItem.question.soal) ||
+                  activeItem.question.soal.includes(activeItem.question.gambar_url.split('/').pop() || activeItem.question.gambar_url)
                 )
               ) && (
                 <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl flex flex-col items-center justify-center">
@@ -343,7 +342,12 @@ export const ReviewClient: React.FC<ReviewClientProps> = ({
                 )}
 
                 {/* Gambar Pembahasan Tambahan jika ada */}
-                {activeItem.question.pembahasan_gambar && (
+                {activeItem.question.pembahasan_gambar && !(
+                  activeItem.question.pembahasan && (
+                    /!\[[^\]]*\]|<img/i.test(activeItem.question.pembahasan) ||
+                    activeItem.question.pembahasan.includes(activeItem.question.pembahasan_gambar.split('/').pop() || activeItem.question.pembahasan_gambar)
+                  )
+                ) && (
                   <div className="mt-3 pt-2.5 border-t border-indigo-100 flex flex-col items-center">
                     <span className="self-start text-[10px] font-semibold text-slate-500 mb-1.5">
                       Diagram / Visual Penjelas:

@@ -1350,7 +1350,7 @@
     "subtes": "TIU",
     "topik": "Figural Serial",
     "level": "sedang",
-    "soal": "Perhatikan gambar pola serial 4 bingkai berurutan dan tentukan gambar ke-(5)!\r\n\r\n![Gambar Soal Nomor 57](gambar/part27_soal_57.png)\r\n\r\n* **Pola yang Diketahui:**\r\n  * Kotak persegi bagian kiri-atas (terdiri atas 4 elemen: lingkaran putih, matriks titik-titik, bentuk setengah lingkaran, dan ring lingkaran) **bersifat tetap dan posisinya tidak berubah** dari gambar (1) sampai (4).\r\n  * Objek-objek yang berada di sisi bawah dan sisi kanan saling bergeser secara siklik berlawanan arah jarum jam (*counter-clockwise*).\r\n* Berdasarkan pola tersebut, gambar yang tepat untuk posisi ke-(5) adalah:",
+    "soal": "Perhatikan gambar berikut!",
     "gambar_url": "/gambar/part27_soal_57.png",
     "opsi": {
       "A": "Opsi A",
@@ -1374,7 +1374,7 @@
     "subtes": "TIU",
     "topik": "Figural Serial",
     "level": "sedang",
-    "soal": "Perhatikan serial gambar (1) hingga (5) untuk menentukan kelanjutan gambar (6)!\r\n\r\n![Gambar Soal Nomor 58](gambar/part27_soal_58.png)\r\n\r\n* Terdapat 4 objek di dalam setiap bingkai yang membentuk pola lompat/selang-seling antara suku ganjil (1, 3, 5) dan suku genap (2, 4, 6):\r\n  * **Objek 1 (kiri atas):** Berputar berlawanan arah jarum jam sebesar $90^\\circ$ dan perubahan warnanya bergantian (hitam/putih).\r\n  * **Objek 2 (kanan atas):** Memiliki pola perubahan warna hitam/putih.\r\n  * **Objek 3 (kiri bawah):** Mengikuti rotasi dan siklus perubahan warna.\r\n  * **Objek 4 (kanan bawah):** Berputar searah jarum jam sebesar $90^\\circ$ serta berubah warna pada setiap langkahnya.\r\n\r\nTentukan gambar ke-(6) yang tepat!",
+    "soal": "Perhatikan gambar berikut!",
     "gambar_url": "/gambar/part27_soal_58.png",
     "opsi": {
       "A": "Opsi A",
@@ -1398,7 +1398,7 @@
     "subtes": "TIU",
     "topik": "Figural Analogi",
     "level": "sedang",
-    "soal": "Perhatikan gambar analogi bentuk berikut:\r\n\r\n![Gambar Soal Nomor 59](gambar/part27_soal_59.png)\r\n\r\nDiberikan analogi bentuk:\r\n\r\n$$\r\n\\text{Gambar (1)} : \\text{Gambar (2)} = \\text{Gambar (3)} : \\text{Gambar (4)}\r\n$$\r\n\r\n* **Pola Transformasi Gambar (3) ke Gambar (4):**\r\n  * Objek utama (tengah-kanan): Dicerminkan secara horizontal (sumbu vertikal/balik kiri-kanan).\r\n  * Objek atas-kiri: Sebagian objeknya berkurang $\\frac{1}{2}$ bagian kanannya.\r\n  * Objek tengah-kiri: Diputar sebesar $90^\\circ$ searah jarum jam.\r\n  * Objek bawah-kiri: Bentuk dan orientasinya tetap statis.\r\n\r\nBerdasarkan aturan analogi yang sama dari gambar (1) ke gambar (2), manakah gambar yang mengisi tanda tanya (?) ...",
+    "soal": "Perhatikan gambar berikut!",
     "gambar_url": "/gambar/part27_soal_59.png",
     "opsi": {
       "A": "Opsi A",
@@ -1422,7 +1422,7 @@
     "subtes": "TIU",
     "topik": "Figural Analogi",
     "level": "sedang",
-    "soal": "Perhatikan gambar analogi bingkai berikut:\r\n\r\n![Gambar Soal Nomor 60](gambar/part27_soal_60.png)\r\n\r\nDiberikan pasangan analogi bingkai:\r\n\r\n$$\r\n\\text{Gambar (1)} : \\text{Gambar (2)} = \\text{Gambar (3)} : \\text{Gambar (4)}\r\n$$\r\n\r\nUntuk mencari Gambar (3) dari Gambar (4), kita membalik arah transformasinya (sebagaimana pola Gambar (2) ke Gambar (1)):\r\n* **Objek 1 (tumbuhan/pohon):** Dicerminkan secara horizontal.\r\n* **Objek 2 (bintang/persegi):** Elemen luar berpindah ke sudut kiri bawah dan membesar, sedangkan elemen bintang tetap di kanan atas.\r\n* **Objek 3 (bentuk bebas):** Mengalami pembalikan warna (putih menjadi hitam solid).\r\n\r\nManakah gambar yang tepat untuk mengisi posisi tanda tanya (?) pada Gambar (3)?",
+    "soal": "Perhatikan gambar berikut!",
     "gambar_url": "/gambar/part27_soal_60.png",
     "opsi": {
       "A": "Opsi A",
@@ -1446,7 +1446,7 @@
     "subtes": "TIU",
     "topik": "Figural Ketaksamaan",
     "level": "sedang",
-    "soal": "Perhatikan kelima gambar pada opsi A, B, C, D, dan E! Manakah gambar yang **paling berbeda (tidak sekelompok)** dari yang lainnya?\r\n\r\n![Gambar Soal Nomor 61](gambar/part27_soal_61.png)",
+    "soal": "Manakah gambar yang berbeda dari kelompok gambar berikut?",
     "gambar_url": "/gambar/part27_soal_61.png",
     "opsi": {
       "A": "Opsi A",
@@ -1470,7 +1470,7 @@
     "subtes": "TIU",
     "topik": "Figural Ketaksamaan",
     "level": "sedang",
-    "soal": "Perhatikan kelima gambar pada opsi A, B, C, D, dan E! Manakah gambar yang berbeda polanya dari yang lain?\r\n\r\n![Gambar Soal Nomor 62](gambar/part27_soal_62.png)",
+    "soal": "Manakah gambar yang berbeda dari kelompok gambar berikut?",
     "gambar_url": "/gambar/part27_soal_62.png",
     "opsi": {
       "A": "Opsi A",
@@ -1494,7 +1494,7 @@
     "subtes": "TIU",
     "topik": "Figural Matriks 9 Kotak",
     "level": "sulit",
-    "soal": "Perhatikan matriks figural berukuran $3 \\times 3$ berikut! Setiap kotak berisi 4 simbol unik yang terbagi menjadi kelompok-kelompok tertentu:\r\n\r\n![Gambar Soal Nomor 63](gambar/part27_soal_63.png)\r\n\r\n* Objek yang ditandai memiliki kelompok rotasi:\r\n  * Kelompok objek yang sama pada sel tertentu mengalami rotasi bersama sebesar $90^\\circ$ searah jarum jam.\r\n  * Kelompok lainnya mengalami rotasi bersama sebesar $90^\\circ$ berlawanan arah jarum jam.\r\n* Tentukan gambar yang tepat untuk menggantikan tanda tanya (?) pada baris ke-3 kolom ke-2!",
+    "soal": "Perhatikan gambar berikut!",
     "gambar_url": "/gambar/part27_soal_63.png",
     "opsi": {
       "A": "Opsi A",
@@ -1518,7 +1518,7 @@
     "subtes": "TIU",
     "topik": "Figural Matriks 9 Kotak",
     "level": "sulit",
-    "soal": "Perhatikan pola baris demi baris pada matriks $3 \\times 3$:\r\n\r\n![Gambar Soal Nomor 64](gambar/part27_soal_64.png)\r\n\r\n* **Aturan Gerak per Langkah Horisontal:**\r\n  * Setiap objek di **kolom 1** bergeser 1 langkah ke **bawah** secara bersiklus.\r\n  * Dua objek di **kolom 2** bergeser 1 langkah ke **bawah** (saling bertukar tempat).\r\n  * Setiap objek di **kolom 3** bergeser 1 langkah ke **atas** secara bersiklus.\r\n\r\nTerapkan aturan gerak tersebut dari baris ke-3 kolom ke-1 menuju baris ke-3 kolom ke-2 (?)!",
+    "soal": "Perhatikan gambar berikut!",
     "gambar_url": "/gambar/part27_soal_64.png",
     "opsi": {
       "A": "Opsi A",
@@ -1542,7 +1542,7 @@
     "subtes": "TIU",
     "topik": "Figural Matriks 9 Kotak",
     "level": "sulit",
-    "soal": "Perhatikan matriks $3 \\times 3$ yang memuat ornamen busur lingkaran berpusat:\r\n\r\n![Gambar Soal Nomor 65](gambar/part27_soal_65.png)\r\n\r\n* **Aturan Gerak per Baris:**\r\n  * Busur lingkaran konsentris di area tertentu berputar sebesar $90^\\circ$ searah jarum jam (*clockwise*).\r\n  * Busur lingkaran di area sudut lainnya berputar sebesar $90^\\circ$ berlawanan arah jarum jam (*counter-clockwise*).\r\n  * Simbol tanda silang ($X$) dan segitiga kecil di sudut tetap berada pada posisi dasarnya.\r\n\r\nTentukan gambar yang tepat untuk mengisi posisi tanda tanya (?) pada baris ke-3 kolom ke-2!",
+    "soal": "Perhatikan gambar berikut!",
     "gambar_url": "/gambar/part27_soal_65.png",
     "opsi": {
       "A": "Opsi A",
@@ -4260,7 +4260,7 @@
     "subtes": "TIU",
     "topik": "Figural Serial",
     "level": "sedang",
-    "soal": "Perhatikan pola serial 5 bingkai berurutan dan tentukan gambar ke-(3)!\r\n\r\n![Gambar Soal Nomor 57](gambar/part28_soal_57.png)",
+    "soal": "Perhatikan gambar berikut!",
     "gambar_url": "/gambar/part28_soal_57.png",
     "opsi": {
       "A": "Opsi A",
@@ -4284,7 +4284,7 @@
     "subtes": "TIU",
     "topik": "Figural Serial",
     "level": "sedang",
-    "soal": "Perhatikan serial gambar (1) hingga (4) untuk menentukan kelanjutan gambar ke-(5)!\r\n\r\n![Gambar Soal Nomor 58](gambar/part28_soal_58.png)",
+    "soal": "Perhatikan gambar berikut!",
     "gambar_url": "/gambar/part28_soal_58.png",
     "opsi": {
       "A": "Opsi A",
@@ -4308,7 +4308,7 @@
     "subtes": "TIU",
     "topik": "Figural Analogi",
     "level": "sedang",
-    "soal": "Perhatikan gambar analogi berikut:\r\n\r\n![Gambar Soal Nomor 59](gambar/part28_soal_59.png)\r\n\r\nDiberikan analogi:\r\n$$\\text{Gambar (1)} : \\text{Gambar (2)} = \\text{Gambar (3)} : \\text{Gambar (4)}$$",
+    "soal": "Perhatikan gambar berikut!",
     "gambar_url": "/gambar/part28_soal_59.png",
     "opsi": {
       "A": "Opsi A",
@@ -4332,7 +4332,7 @@
     "subtes": "TIU",
     "topik": "Figural Analogi",
     "level": "sedang",
-    "soal": "Perhatikan gambar berikut!\r\n\r\n![Gambar Soal Nomor 60](gambar/part28_soal_60.png)\r\n\r\nDiberikan hubungan analogi bangun datar:\r\n\\text{Gambar (1)} : \\text{Gambar (2)} = \\text{Gambar (3)} : \\text{Gambar (4)}",
+    "soal": "Perhatikan gambar berikut!",
     "gambar_url": "/gambar/part28_soal_60.png",
     "opsi": {
       "A": "Opsi A",
@@ -4356,7 +4356,7 @@
     "subtes": "TIU",
     "topik": "Figural Ketaksamaan",
     "level": "sedang",
-    "soal": "Carilah gambar yang berbeda dari kelompok gambar berikut!\r\n\r\n![Gambar Soal Nomor 61](gambar/part28_soal_61.png)",
+    "soal": "Carilah gambar yang berbeda dari kelompok gambar berikut!",
     "gambar_url": "/gambar/part28_soal_61.png",
     "opsi": {
       "A": "Opsi A",
@@ -4380,7 +4380,7 @@
     "subtes": "TIU",
     "topik": "Figural Ketaksamaan",
     "level": "sedang",
-    "soal": "Carilah gambar yang berbeda di antara pilihan gambar berikut!\r\n\r\n![Gambar Soal Nomor 62](gambar/part28_soal_62.png)",
+    "soal": "Carilah gambar yang berbeda dari kelompok gambar berikut!",
     "gambar_url": "/gambar/part28_soal_62.png",
     "opsi": {
       "A": "Opsi A",
@@ -4404,7 +4404,7 @@
     "subtes": "TIU",
     "topik": "Figural Matriks 9 Kotak",
     "level": "sulit",
-    "soal": "Tentukan gambar yang tepat untuk mengisi kotak kosong bertanda tanya (?) pada matriks 3x3 berikut!\r\n\r\n![Gambar Soal Nomor 63](gambar/part28_soal_63.png)",
+    "soal": "Perhatikan gambar berikut!",
     "gambar_url": "/gambar/part28_soal_63.png",
     "opsi": {
       "A": "Opsi A",
@@ -4428,7 +4428,7 @@
     "subtes": "TIU",
     "topik": "Figural Matriks 9 Kotak",
     "level": "sulit",
-    "soal": "Tentukan gambar yang tepat untuk melengkapi kotak matriks 3x3 berikut!\r\n\r\n![Gambar Soal Nomor 64](gambar/part28_soal_64.png)",
+    "soal": "Perhatikan gambar berikut!",
     "gambar_url": "/gambar/part28_soal_64.png",
     "opsi": {
       "A": "Opsi A",
@@ -4452,7 +4452,7 @@
     "subtes": "TIU",
     "topik": "Figural Matriks 9 Kotak",
     "level": "sulit",
-    "soal": "Tentukan gambar yang tepat untuk mengisi kotak kosong pada matriks 3x3 berikut!\r\n\r\n![Gambar Soal Nomor 65](gambar/part28_soal_65.png)",
+    "soal": "Perhatikan gambar berikut!",
     "gambar_url": "/gambar/part28_soal_65.png",
     "opsi": {
       "A": "Opsi A",

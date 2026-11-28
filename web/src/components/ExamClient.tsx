@@ -445,9 +445,8 @@ export const ExamClient: React.FC<ExamClientProps> = ({
               {/* Gambar Soal (Figural / Diagram Bersih - Tanpa Pilihan Ganda) */}
               {currentQuestion.gambar_url && !(
                 currentQuestion.soal && (
-                  currentQuestion.soal.includes('![gambar') ||
-                  currentQuestion.soal.includes('<img') ||
-                  currentQuestion.soal.includes(currentQuestion.gambar_url)
+                  /!\[[^\]]*\]|<img/i.test(currentQuestion.soal) ||
+                  currentQuestion.soal.includes(currentQuestion.gambar_url.split('/').pop() || currentQuestion.gambar_url)
                 )
               ) && (
                 <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl flex flex-col items-center justify-center">
@@ -536,7 +535,12 @@ export const ExamClient: React.FC<ExamClientProps> = ({
                         Pembahasan Lengkap:
                       </h4>
                       <MarkdownRenderer content={currentQuestion.pembahasan} />
-                      {currentQuestion.pembahasan_gambar && (
+                      {currentQuestion.pembahasan_gambar && !(
+                        currentQuestion.pembahasan && (
+                          /!\[[^\]]*\]|<img/i.test(currentQuestion.pembahasan) ||
+                          currentQuestion.pembahasan.includes(currentQuestion.pembahasan_gambar.split('/').pop() || currentQuestion.pembahasan_gambar)
+                        )
+                      ) && (
                         <div className="mt-2.5">
                           {/* eslint-disable-next-line @next/next/no-img-element */}
                           <img
