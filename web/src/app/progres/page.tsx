@@ -1,5 +1,5 @@
 import { redirect } from 'next/navigation';
-import { createClient } from '@/lib/supabase/server';
+import { createClient, getAuthUser } from '@/lib/supabase/server';
 import { getUserProgressData } from '@/lib/progress-service';
 import { ProgressClient } from '@/components/progress/ProgressClient';
 
@@ -10,7 +10,7 @@ export const metadata = {
 
 export default async function ProgresPage() {
   const supabase = await createClient();
-  const { data: { user } } = await supabase.auth.getUser();
+  const user = await getAuthUser(supabase);
 
   if (!user) {
     redirect('/login');

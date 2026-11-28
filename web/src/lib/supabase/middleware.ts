@@ -72,5 +72,27 @@ export async function updateSession(request: NextRequest) {
     }
   }
 
+  // Forward verified user identity to Server Components so they don't need a duplicate getUser() round-trip.
+  // Always strip incoming client headers first to prevent spoofing.
+  const requestHeaders = new Headers(request.headers);
+  requestHeaders.delete('x-auth-user-id');
+  requestHeaders.delete('x-auth-user-email');
+
+  if (user) {
+    requestHeaders.set('x-auth-user-id', user.id);
+    if (user.email) {
+      requestHeaders.set('x-auth-user-email', user.email);
+    }
+    const finalResponse = NextResponse.next({
+      request: {
+        headers: requestHeaders,
+      },
+    });
+    supabaseResponse.cookies.getAll().forEach((cookie) => {
+      finalResponse.cookies.set(cookie);
+    });
+    return finalResponse;
+  }
+
   return supabaseResponse;
 }

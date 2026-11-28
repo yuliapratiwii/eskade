@@ -14,12 +14,12 @@ function preprocessMarkdown(content: string): string {
   if (!content) return '';
   return content
     // Convert \[ ... \] to $$ ... $$ (display math)
-    .replace(/\\\[([\\s\\S]*?)\\\]/g, (_, math) => {
+    .replace(/\\\[([\s\S]*?)\\\]/g, (_, math) => {
       const clean = math.replace(/\\\s+/g, ' ').trim();
       return `$$${clean}$$`;
     })
     // Convert \( ... \) to $ ... $ (inline math)
-    .replace(/\\\(([\\s\\S]*?)\\\)/g, (_, math) => {
+    .replace(/\\\(([\s\S]*?)\\\)/g, (_, math) => {
       const clean = math.replace(/\\\s+/g, ' ').trim();
       return `$${clean}$`;
     })

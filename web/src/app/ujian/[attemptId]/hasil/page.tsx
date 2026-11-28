@@ -1,6 +1,6 @@
 import { redirect, notFound } from 'next/navigation';
 import Link from 'next/link';
-import { createClient } from '@/lib/supabase/server';
+import { createClient, getAuthUser } from '@/lib/supabase/server';
 import { PASSING_GRADE, SCORING_CONFIG } from '@/lib/config';
 import { Navbar } from '@/components/Navbar';
 import {
@@ -30,30 +30,31 @@ export default async function ExamResultPage({ params }: ResultPageProps) {
   const { attemptId } = await params;
   const supabase = await createClient();
 
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const user = await getAuthUser(supabase);
 
   if (!user) {
     redirect('/login');
   }
 
-  // 1. Ambil data attempt
-  const { data: attempt, error: attemptError } = await supabase
-    .from('attempts')
-    .select('id, user_id, mode, subtes, mulai, selesai, durasi_detik, skor')
-    .eq('id', attemptId)
-    .single();
+  // 1 & 2. Ambil data attempt dan jawaban user secara paralel
+  const [
+    { data: attempt, error: attemptError },
+    { data: userAnswers, error: answersError },
+  ] = await Promise.all([
+    supabase
+      .from('attempts')
+      .select('id, user_id, mode, subtes, mulai, selesai, durasi_detik, skor')
+      .eq('id', attemptId)
+      .single(),
+    supabase
+      .from('attempt_answers')
+      .select('question_id, jawaban, ragu, waktu_detik')
+      .eq('attempt_id', attemptId),
+  ]);
 
   if (attemptError || !attempt || attempt.user_id !== user.id) {
     notFound();
   }
-
-  // 2. Ambil semua jawaban user untuk attempt ini
-  const { data: userAnswers, error: answersError } = await supabase
-    .from('attempt_answers')
-    .select('question_id, jawaban, ragu, waktu_detik')
-    .eq('attempt_id', attemptId);
 
   if (answersError || !userAnswers) {
     notFound();
@@ -61,11 +62,23 @@ export default async function ExamResultPage({ params }: ResultPageProps) {
 
   const questionIds = userAnswers.map((a) => a.question_id);
 
-  // 3. SELEPAS SUBMIT: Ambil kunci jawaban resmi dari database questions
-  const { data: questions, error: questionsError } = await supabase
-    .from('questions')
-    .select('id, subtes, topik, kunci, skor_tkp')
-    .in('id', questionIds);
+  // 3 & 5. Ambil kunci jawaban resmi dan percobaan sebelumnya secara paralel
+  const [{ data: questions, error: questionsError }, { data: prevAttempt }] = await Promise.all([
+    supabase
+      .from('questions')
+      .select('id, subtes, topik, kunci, skor_tkp')
+      .in('id', questionIds),
+    supabase
+      .from('attempts')
+      .select('id, skor, selesai')
+      .eq('user_id', user.id)
+      .eq('mode', attempt.mode)
+      .not('selesai', 'is', null)
+      .neq('id', attemptId)
+      .order('selesai', { ascending: false })
+      .limit(1)
+      .maybeSingle(),
+  ]);
 
   if (questionsError || !questions) {
     notFound();
@@ -156,18 +169,6 @@ export default async function ExamResultPage({ params }: ResultPageProps) {
   const mostMissedTopic = sortedWeakTopics.length > 0 && sortedWeakTopics[0].count > 0 ? sortedWeakTopics[0] : null;
 
   const totalScore = twkScore + tiuScore + tkpScore;
-
-  // 5. Cari Percobaan Sebelumnya untuk Perbandingan Skor
-  const { data: prevAttempt } = await supabase
-    .from('attempts')
-    .select('id, skor, selesai')
-    .eq('user_id', user.id)
-    .eq('mode', attempt.mode)
-    .not('selesai', 'is', null)
-    .neq('id', attemptId)
-    .order('selesai', { ascending: false })
-    .limit(1)
-    .maybeSingle();
 
   const scoreDiff = prevAttempt && prevAttempt.skor !== null ? totalScore - prevAttempt.skor : null;
 
@@ -541,6 +542,7 @@ export default async function ExamResultPage({ params }: ResultPageProps) {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
           <Link
             href="/"
+            prefetch={true}
             className="w-full sm:w-auto px-5 py-3 rounded-2xl border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 transition"
           >
             <RotateCcw className="w-4 h-4" />
@@ -549,6 +551,7 @@ export default async function ExamResultPage({ params }: ResultPageProps) {
 
           <Link
             href={`/ujian/${attemptId}/pembahasan`}
+            prefetch={true}
             className="w-full sm:w-auto px-6 py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs sm:text-sm shadow-md shadow-indigo-100 flex items-center justify-center gap-2 transition"
           >
             <BookOpen className="w-4 h-4" />

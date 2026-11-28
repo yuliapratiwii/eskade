@@ -1,5 +1,5 @@
 import { redirect, notFound } from 'next/navigation';
-import { createClient } from '@/lib/supabase/server';
+import { createClient, getAuthUser } from '@/lib/supabase/server';
 import { calculateExamDurationSeconds, sortExamQuestions } from '@/lib/config';
 import { ExamClient, ExamQuestionClient, UserAnswerState } from '@/components/ExamClient';
 import { ExamMode } from '@/lib/types';
@@ -15,20 +15,27 @@ export default async function ExamPage({ params }: ExamPageProps) {
   const supabase = await createClient();
 
   // 1. Verifikasi user
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const user = await getAuthUser(supabase);
 
   if (!user) {
     redirect('/login');
   }
 
-  // 2. Ambil data attempt (termasuk exam_id bila berasal dari paket tetap)
-  const { data: attempt, error: attemptError } = await supabase
-    .from('attempts')
-    .select('id, user_id, mode, subtes, mulai, selesai, durasi_detik, exam_id')
-    .eq('id', attemptId)
-    .single();
+  // 2 & 3. Ambil data attempt dan daftar attempt_answers secara paralel
+  const [
+    { data: attempt, error: attemptError },
+    { data: answersData, error: answersError },
+  ] = await Promise.all([
+    supabase
+      .from('attempts')
+      .select('id, user_id, mode, subtes, mulai, selesai, durasi_detik, exam_id')
+      .eq('id', attemptId)
+      .single(),
+    supabase
+      .from('attempt_answers')
+      .select('question_id, jawaban, ragu, waktu_detik')
+      .eq('attempt_id', attemptId),
+  ]);
 
   if (attemptError || !attempt) {
     notFound();
@@ -44,40 +51,32 @@ export default async function ExamPage({ params }: ExamPageProps) {
     redirect(`/ujian/${attemptId}/hasil`);
   }
 
-  // 3. Ambil daftar attempt_answers untuk attempt ini
-  const { data: answersData, error: answersError } = await supabase
-    .from('attempt_answers')
-    .select('question_id, jawaban, ragu, waktu_detik')
-    .eq('attempt_id', attemptId);
-
   if (answersError || !answersData || answersData.length === 0) {
     notFound();
   }
 
   const questionIds = answersData.map((a) => a.question_id);
 
-  // 4. Query soal dari database dengan ATURAN ANTI-CHEAT KETAT:
+  // 4. Query soal dari database dengan ATURAN ANTI-CHEAT KETAT & urutan paket secara paralel
   // Selama pengerjaan, JANGAN mengambil kolom kunci & pembahasan (kecuali mode latihan_topik)
   const isLatihanTopik = attempt.mode === 'latihan_topik';
-  let questionsData: ExamQuestionClient[] = [];
+  const selectCols = isLatihanTopik
+    ? 'id, sumber, nomor, subtes, topik, level, soal, gambar_url, opsi, kunci, pembahasan, pembahasan_gambar'
+    : 'id, sumber, nomor, subtes, topik, level, soal, gambar_url, opsi';
 
-  if (isLatihanTopik) {
-    const res = await supabase
-      .from('questions')
-      .select('id, sumber, nomor, subtes, topik, level, soal, gambar_url, opsi, kunci, pembahasan, pembahasan_gambar')
-      .in('id', questionIds);
+  const [questionsRes, eqRes] = await Promise.all([
+    supabase.from('questions').select(selectCols).in('id', questionIds),
+    attempt.exam_id
+      ? supabase
+          .from('exam_questions')
+          .select('question_id, urutan')
+          .eq('exam_id', attempt.exam_id)
+          .order('urutan', { ascending: true })
+      : Promise.resolve({ data: null }),
+  ]);
 
-    if (res.error || !res.data) notFound();
-    questionsData = res.data as unknown as ExamQuestionClient[];
-  } else {
-    const res = await supabase
-      .from('questions')
-      .select('id, sumber, nomor, subtes, topik, level, soal, gambar_url, opsi')
-      .in('id', questionIds);
-
-    if (res.error || !res.data) notFound();
-    questionsData = res.data as unknown as ExamQuestionClient[];
-  }
+  if (questionsRes.error || !questionsRes.data) notFound();
+  const questionsData = questionsRes.data as unknown as ExamQuestionClient[];
 
   // 5. Susun urutan soal secara presisi dan teratur:
   // - Bila berasal dari paket ujian (exam_id), gunakan urutan pasti dari exam_questions (urutan 1..110)
@@ -85,18 +84,10 @@ export default async function ExamPage({ params }: ExamPageProps) {
   const questionMap = new Map(questionsData.map((q) => [q.id, q]));
   let orderedQuestions: ExamQuestionClient[] = [];
 
-  if (attempt.exam_id) {
-    const { data: eqList } = await supabase
-      .from('exam_questions')
-      .select('question_id, urutan')
-      .eq('exam_id', attempt.exam_id)
-      .order('urutan', { ascending: true });
-
-    if (eqList && eqList.length > 0) {
-      for (const eq of eqList) {
-        const q = questionMap.get(eq.question_id);
-        if (q) orderedQuestions.push(q);
-      }
+  if (eqRes.data && eqRes.data.length > 0) {
+    for (const eq of eqRes.data) {
+      const q = questionMap.get(eq.question_id);
+      if (q) orderedQuestions.push(q);
     }
   }
 

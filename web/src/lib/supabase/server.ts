@@ -1,5 +1,6 @@
 import { createServerClient } from '@supabase/ssr';
-import { cookies } from 'next/headers';
+import { cookies, headers } from 'next/headers';
+import type { SupabaseClient } from '@supabase/supabase-js';
 
 export async function createClient() {
   const cookieStore = await cookies();
@@ -25,4 +26,23 @@ export async function createClient() {
       },
     }
   );
+}
+
+/**
+ * Returns the authenticated user, reusing the verified identity forwarded by
+ * middleware when available to avoid a redundant Supabase Auth network call.
+ */
+export async function getAuthUser(supabase: SupabaseClient): Promise<{ id: string; email?: string } | null> {
+  const headerStore = await headers();
+  const userId = headerStore.get('x-auth-user-id');
+  if (userId) {
+    return {
+      id: userId,
+      email: headerStore.get('x-auth-user-email') || undefined,
+    };
+  }
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  return user ? { id: user.id, email: user.email } : null;
 }

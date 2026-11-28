@@ -1,52 +1,48 @@
 import { redirect } from 'next/navigation';
-import { createClient } from '@/lib/supabase/server';
+import { createClient, getAuthUser } from '@/lib/supabase/server';
 import { Navbar } from '@/components/Navbar';
 import { DashboardClient, ActiveExamInfo } from '@/components/DashboardClient';
 
 export default async function HomePage() {
   const supabase = await createClient();
 
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const user = await getAuthUser(supabase);
 
   if (!user) {
     redirect('/login');
   }
 
-  // Fetch user profile
-  const { data: profile } = await supabase
-    .from('profiles')
-    .select('nama, target_ujian, role')
-    .eq('id', user.id)
-    .single();
-
-  // Fetch user attempts history
-  const { data: attempts } = await supabase
-    .from('attempts')
-    .select('id, mode, subtes, mulai, selesai, skor, durasi_detik, exam_id, exams(judul)')
-    .eq('user_id', user.id)
-    .order('mulai', { ascending: false });
-
-  // Fetch active exams (Paket Try Out & Subtes) for dashboard
-  const { data: activeExams } = await supabase
-    .from('exams')
-    .select(`
-      id,
-      judul,
-      tipe,
-      subtes,
-      durasi_menit,
-      aktif,
-      exam_questions (
-        questions (
-          subtes,
-          topik
+  // Fetch profile, attempts, and active exams in parallel
+  const [{ data: profile }, { data: attempts }, { data: activeExams }] = await Promise.all([
+    supabase
+      .from('profiles')
+      .select('nama, target_ujian, role')
+      .eq('id', user.id)
+      .single(),
+    supabase
+      .from('attempts')
+      .select('id, mode, subtes, mulai, selesai, skor, durasi_detik, exam_id, exams(judul)')
+      .eq('user_id', user.id)
+      .order('mulai', { ascending: false }),
+    supabase
+      .from('exams')
+      .select(`
+        id,
+        judul,
+        tipe,
+        subtes,
+        durasi_menit,
+        aktif,
+        exam_questions (
+          questions (
+            subtes,
+            topik
+          )
         )
-      )
-    `)
-    .eq('aktif', true)
-    .order('judul', { ascending: true });
+      `)
+      .eq('aktif', true)
+      .order('judul', { ascending: true }),
+  ]);
 
   const formattedActiveExams: ActiveExamInfo[] = (activeExams || []).map((e: any) => {
     const rawList = (e.exam_questions || [])

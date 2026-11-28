@@ -713,19 +713,14 @@ export const DashboardClient: React.FC<DashboardClientProps> = ({
                       </div>
                     )}
 
-                    <button
-                      onClick={() => {
-                        if (isCompleted) {
-                          router.push(`/ujian/${item.id}/pembahasan`);
-                        } else {
-                          router.push(`/ujian/${item.id}`);
-                        }
-                      }}
-                      className="px-2.5 py-1.5 rounded-xl text-indigo-600 hover:bg-indigo-50 border border-indigo-100 font-semibold text-xs transition"
+                    <Link
+                      href={isCompleted ? `/ujian/${item.id}/pembahasan` : `/ujian/${item.id}`}
+                      prefetch={true}
+                      className="px-2.5 py-1.5 rounded-xl text-indigo-600 hover:bg-indigo-50 border border-indigo-100 font-semibold text-xs transition inline-flex items-center"
                       title={isCompleted ? 'Lihat Pembahasan' : 'Lanjutkan Ujian'}
                     >
                       {isCompleted ? 'Pembahasan' : 'Lanjut'}
-                    </button>
+                    </Link>
 
                     <button
                       type="button"
